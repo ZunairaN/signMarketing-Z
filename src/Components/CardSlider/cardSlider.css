@@ -1,0 +1,167 @@
+.swiper_horizontal {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}
+.swiper_pagination_bullet {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background: gray;
+  align-self: center;
+  margin-left: 5px;
+}
+.swiper_pagination_bullet_Active {
+  display: inline-block;
+  width: 20px !important;
+  background-color: #ed1b24 !important;
+  border-radius: 20px !important;
+}
+.Card_Wrapper {
+  height: 500px;
+  width: 100%;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.swiper_pagination_wrapper {
+  /* background-color: green; */
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding-top: 30px;
+}
+.Pre_button {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  align-self: center;
+  border-radius: 10px;
+}
+.Pre_button:hover {
+  background-color: #ed1b24;
+}
+.Pre_button:hover #Left_Arrow {
+  fill: white;
+  stroke: white;
+}
+
+.Next_button:hover {
+  background-color: #ed1b24;
+}
+.Next_button {
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.Next_button:hover #Right_Arrow {
+  fill: white;
+  stroke: white;
+}
+
+.swiper_button_wrapper {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 35px;
+  z-index: 555;
+  cursor: pointer;
+}
+.Card_Image_Bg {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.Card_Content_Container {
+  height: 35%;
+  width: 90%;
+  position: absolute;
+  bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  align-self: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Card_Image_Bg:hover .Card_Content_Container {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(250, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Card_Image_Bg :hover .Iocn_Content_Conatiner {
+  display: flex;
+  flex-direction: column;
+}
+.Card_Image_Bg:hover .Icon_Conatiner {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  justify-content: center;
+}
+.Card_Image_Bg:hover .Card_User_Name {
+  font-size: 2.5rem;
+}
+.Card_Image_Bg:hover .Card_User_Location {
+  font-size: 1.8rem;
+}
+
+.Card_User_Name {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.Card_User_Location {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+.Iocn_Content_Conatiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.Card_Contect_Button {
+  color: white;
+  background-color: #ed1b24;
+  height: 3.5rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.Icon_Conatiner {
+  display: flex;
+  flex-direction: row;
+}
+.Card_User_Location_Iocn {
+  padding-right: 15px;
+}

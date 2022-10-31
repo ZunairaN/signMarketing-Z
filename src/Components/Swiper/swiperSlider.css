@@ -1,0 +1,141 @@
+.Swiper_Wrapper {
+  background-color: grey;
+  height: 300px;
+  width: 450px;
+  border-radius: 10px;
+}
+.mySwiper {
+  height: 300px;
+  padding-left: 50px;
+}
+.Swiper_Image_Bg {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.Arrow_Container {
+  display: flex;
+  flex-direction: column;
+}
+.Arrow_Up_Style {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  align-self: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Arrow_Up_Style:hover {
+  background-color: #ed1b24;
+}
+.Arrow_Up_Style:hover #Arrow_Up {
+  fill: white;
+  stroke: white;
+}
+.Arrow_Down_Style {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  align-self: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Arrow_Down_Style:hover {
+  background-color: #ed1b24;
+}
+.Arrow_Down_Style:hover #Arrow_Down {
+  fill: white;
+  stroke: white;
+}
+
+.Swiper_Pagination_Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.swiper_pagination_bullet_ContactUs {
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  border-radius: 50%;
+  background: gray;
+  align-self: center;
+  margin-top: 5px;
+}
+.Swiper_Bullet_Container {
+  display: flex;
+  flex-direction: column;
+}
+.swiper_pagination_bullet_Active_ContactUs {
+  display: inline-block;
+  height: 20px !important;
+  background-color: #ed1b24 !important;
+  border-radius: 20px !important;
+}
+.Swiper_Image_Content_Container {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 0;
+  width: 0;
+  cursor: pointer;
+  display: none;
+}
+.Swiper_Image_Bg:hover .Swiper_Image_Content_Container {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+}
+.Swiper_Contact_Text {
+  font-size: 2.2rem;
+  color: white;
+  font-weight: bold;
+}
+.Swiper_User_Name {
+  font-size: 1.5rem;
+  color: #c4c4c4;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+.Swiper_UserIcon_Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+.Swiper_DateIcen_Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Swiper_Contect_Button {
+  color: white;
+  background-color: #ed1b24;
+  height: 3.5rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 15px;
+}

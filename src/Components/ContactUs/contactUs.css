@@ -1,0 +1,35 @@
+.Contact_background {
+  min-height: 100vh;
+  background-color: white;
+}
+.Contact_Swiper_Container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
+}
+.Contact_Image_Container {
+  height: 65vh;
+  width: 30vw;
+  background-image: url("../../Assets/ContactUsImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  position: relative;
+}
+.Contact_Image_Text_Container {
+  height: 25vh;
+  width: 25vw;
+  background-image: url("../../Assets/Contact_Text_Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: -125px;
+  top: 150px;
+}

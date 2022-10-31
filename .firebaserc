@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "sign-marketing-web",
+    "build": "sign-marketing-web"
+  },
+  "targets": {},
+  "etags": {}
+}

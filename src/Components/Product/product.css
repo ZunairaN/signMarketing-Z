@@ -1,0 +1,125 @@
+.Product_background {
+  height: 100vh;
+  background-color: #eeeeee;
+}
+.Main_Content_Conatiner {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.product_Text_Container {
+  width: 60%;
+  /* background-color: red; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.Benefit_Text {
+  color: #ed1b24;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+}
+.Design_Text {
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+}
+.Product_Paragraph {
+  color: #393939;
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 500;
+}
+.Product_Experience_Container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+.Exp_Container {
+  width: 45%;
+  /* background-color: green; */
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: ease-in 0.3s all;
+}
+.Product_Exp_Text {
+  font-size: 2.2rem;
+  color: black;
+}
+.Pro_Pagragraph {
+  font-size: 1.3rem;
+  color: black;
+  padding-top: 5px;
+}
+.Exp_Container:hover {
+  background-color: black;
+  box-shadow: rgba(10, 10, 20, 0.3) 0px 8px 24px,
+    rgba(10, 10, 20, 0.3) 0px 16px 56px, rgba(10, 10, 20, 0.3) 0px 24px 80px;
+}
+.Exp_Container:hover .Product_Exp_Text {
+  color: white;
+}
+.Exp_Container:hover .Pro_Pagragraph {
+  color: white;
+}
+
+.Product_Exp_Text_Container {
+  margin-left: 15px;
+}
+.Product_Btn_Container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.Product_Discover {
+  padding: 12px;
+  font-size: 12px;
+  background-color: #ed1b24;
+  color: white;
+  width: 100px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.Product_Arrow_Container {
+  display: flex;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: ease-in 0.3s all;
+}
+.Product_Arrow_Container:hover .Product_See_Text {
+  transition: ease-in 0.3s all;
+  color: #ed1b24;
+}
+.Product_Arrow_Container:hover #Button_Arrow {
+  fill: #ed1b24;
+  stroke: #ed1b24;
+  transition: ease-in 0.3s all;
+}
+
+.Product_See_Text {
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.Product_Btn_Main_Container {
+  display: flex;
+  justify-content: center;
+}
+.Icons_Wrapper {
+  margin-left: 10px;
+}

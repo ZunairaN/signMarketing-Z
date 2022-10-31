@@ -1,0 +1,522 @@
+.Header_background {
+  height: 125vh;
+  width: 100%;
+  background-color: white;
+}
+.Header_Image_background {
+  height: 125vh;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../Assets/Header_BG1.png");
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 20rem;
+}
+
+.Imge_wrapper_Header {
+  height: auto;
+  width: 35%;
+}
+.Imge_wrapper_Header img {
+  height: auto;
+  width: 100%;
+}
+.paragraph {
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: justify;
+}
+.Btn_wrapper {
+  width: 50%;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 555;
+}
+.Discover {
+  padding: 12px 8px;
+  font-size: 12px;
+  background-color: #ffffff;
+  color: #ed1b24;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.Discover:hover {
+  background-color: #ed1b24;
+  color: #ffffff;
+  transition: ease-in 0.3s all;
+}
+.Header_Pro_Bg {
+  background-image: url("../../Assets/Pro_BG.png");
+  height: 450px;
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  display: flex;
+  align-items: center;
+  padding-left: 15rem;
+}
+.Header_bottom_container {
+  padding: 25px;
+  width: 100%;
+  background-color: #f0f0f0;
+  position: absolute;
+  margin-top: -15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.cout_Text {
+  font-size: 3.5rem;
+  text-align: center;
+}
+.text_Wrapper {
+  margin-top: 20px;
+}
+.header_Pro_Bg_Text {
+  font-size: 1.5rem;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.DisriProject_Container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.DisriProject_Container:hover {
+  background-color: #ed1b24;
+  transition: ease-in 0.5s all;
+}
+
+.icon_Container {
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ed1b24;
+  border-radius: 50px;
+  margin-top: -10px;
+}
+.DisriProject_Container:hover .icon_Container {
+  background-color: white;
+  transition: ease-in 0.5s all;
+}
+
+.DisriProject_Container:hover #gif_Icon {
+  fill: black;
+  transition: ease-in 0.5s all;
+}
+.DisriProject_Container:hover .label_Text {
+  color: white;
+  transition: ease-in 0.5s all;
+}
+
+.label_Text {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.Header_Conatiner {
+  width: 80%;
+  margin-top: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Header_Text_Container {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.No_Project_Conatiner {
+  height: 100%;
+  background-color: white;
+  width: 23rem;
+  position: absolute;
+  right: 0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text_Container {
+  display: flex;
+  flex-direction: column;
+}
+.Image_1 {
+  height: 35px;
+  width: 200px;
+  background-image: url("../../Assets/Image_1_Gray.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: ease-in 0.3s all;
+  align-self: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.Image_1:hover {
+  height: 35px;
+  width: 200px;
+  background-image: url("../../Assets/Image_1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: ease-in 0.3s all;
+  align-self: center;
+  cursor: pointer;
+}
+.Image_2 {
+  height: 75px;
+  width: 200px;
+  background-image: url("../../Assets/Image_2_Gray.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: ease-in 0.3s all;
+  align-self: center;
+  cursor: pointer;
+}
+.Image_2:hover {
+  height: 75px;
+  width: 200px;
+  background-image: url("../../Assets/Image_2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: ease-in 0.3s all;
+  align-self: center;
+  cursor: pointer;
+}
+.Image_3 {
+  height: 55px;
+  width: 200px;
+  background-image: url("../../Assets/Image_3_Gray.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: ease-in 0.3s all;
+  align-self: center;
+  cursor: pointer;
+}
+.Image_3:hover {
+  height: 55px;
+  width: 200px;
+  background-image: url("../../Assets/Image_3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: ease-in 0.3s all;
+  align-self: center;
+  cursor: pointer;
+}
+.Image_4 {
+  height: 55px;
+  width: 200px;
+  background-image: url("../../Assets/Image_4_Gray.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: ease-in 0.3s all;
+  align-self: center;
+  cursor: pointer;
+  margin-top: 18px;
+}
+.Image_4:hover {
+  height: 55px;
+  width: 200px;
+  background-image: url("../../Assets/Image_4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: ease-in 0.3s all;
+  align-self: center;
+  cursor: pointer;
+}
+.Image_5 {
+  height: 55px;
+  width: 200px;
+  background-image: url("../../Assets/Image_5_Gray.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: ease-in 0.3s all;
+  align-self: center;
+  cursor: pointer;
+}
+.Image_5:hover {
+  height: 55px;
+  width: 200px;
+  background-image: url("../../Assets/Image_5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: ease-in 0.3s all;
+  align-self: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .Header_background {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .Header_Image_background {
+    height: 125vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20rem;
+  }
+  .Header_Conatiner {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 12rem;
+  }
+  .Header_Text_Container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+  }
+  .Btn_wrapper {
+    width: 100%;
+    padding: 0;
+    /* background-color: green; */
+  }
+  .paragraph {
+    font-size: 1.8rem;
+    color: black;
+    text-align: justify;
+    padding-top: 15px;
+    line-height: 1.5;
+  }
+  .Discover {
+    padding: 12px 8px;
+    font-size: 12px;
+    background-color: #ffffff;
+    color: #ed1b24;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .Header_Pro_Bg {
+    background-image: url("../../Assets/Pro_BG.png");
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 25px;
+  }
+  .DisriProject_Container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 20rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .icon_Container {
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ed1b24;
+    border-radius: 50px;
+    margin-top: -10px;
+  }
+  .label_Text {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  .No_Project_Conatiner {
+    width: 100%;
+    background-color: white;
+    height: 18rem;
+    position: absolute;
+    bottom: 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .text_Container {
+    display: flex;
+    flex-direction: row;
+  }
+  .text_Wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .Imge_wrapper_Header {
+    height: auto;
+    width: 100%;
+  }
+  .Imge_wrapper_Header img {
+    height: auto;
+    width: 100%;
+  }
+  .cout_Text {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .header_Pro_Bg_Text {
+    font-size: 1.5rem;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .Header_bottom_container {
+    padding: 5px;
+    width: 100%;
+    background-color: #f0f0f0;
+    position: absolute;
+    margin-top: -15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .Image_1 {
+    height: 50px;
+    width: 200px;
+    background-image: url("../../Assets/Image_1_Gray.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: ease-in 0.3s all;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  .Image_1:hover {
+    height: 50px;
+    width: 200px;
+    background-image: url("../../Assets/Image_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: ease-in 0.3s all;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  .Image_2 {
+    height: 100px;
+    width: 200px;
+    background-image: url("../../Assets/Image_2_Gray.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: ease-in 0.3s all;
+    align-self: center;
+    cursor: pointer;
+    margin-top: -5px;
+    margin-left: 10px;
+  }
+  .Image_2:hover {
+    height: 100px;
+    width: 200px;
+    background-image: url("../../Assets/Image_2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: ease-in 0.3s all;
+    align-self: center;
+    cursor: pointer;
+    margin-top: -5px;
+  }
+  .Image_3 {
+    height: 70px;
+    width: 200px;
+    background-image: url("../../Assets/Image_3_Gray.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: ease-in 0.3s all;
+    align-self: center;
+    cursor: pointer;
+    margin-top: -5px;
+  }
+  .Image_3:hover {
+    height: 70px;
+    width: 200px;
+    background-image: url("../../Assets/Image_3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: ease-in 0.3s all;
+    align-self: center;
+    cursor: pointer;
+    margin-top: -5px;
+  }
+  .Image_4 {
+    height: 80px;
+    width: 200px;
+    background-image: url("../../Assets/Image_4_Gray.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: ease-in 0.3s all;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .Image_4:hover {
+    height: 80px;
+    width: 200px;
+    background-image: url("../../Assets/Image_4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: ease-in 0.3s all;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .Image_5 {
+    height: 70px;
+    width: 200px;
+    background-image: url("../../Assets/Image_5_Gray.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: ease-in 0.3s all;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  .Image_5:hover {
+    height: 70px;
+    width: 200px;
+    background-image: url("../../Assets/Image_5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: ease-in 0.3s all;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+}
