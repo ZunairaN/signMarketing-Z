@@ -1,0 +1,58 @@
+.Footer_Bg_Container {
+  height: 100vh;
+  width: 100%;
+  margin-top: 100px;
+  background-image: url("../../Assets/Footer_Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.Footer_Content_Main_Container {
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+.Footer_Loaction_Content_Conatiner {
+  width: 49%;
+  box-sizing: border-box;
+  padding: 25px;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+  cursor: default;
+}
+.Footer_Place_Name_Text {
+  font-size: 2.2rem;
+  color: white;
+  font-weight: bold;
+}
+.Footer_Place_Address_Text {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 400;
+  transition: ease-in-out 0.2s all;
+}
+.Footer_Text_Wrapper {
+  padding-left: 10px;
+}
+.Icons_Wrapper {
+  padding-top: 5px;
+}
+
+.Footer_Loaction_Content_Conatiner:hover {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-weight: 400;
+  transition: ease-in-out 0.3s all;
+}
+.Footer_Loaction_Content_Conatiner:hover .Footer_Place_Name_Text {
+  color: black;
+}
+.Footer_Loaction_Content_Conatiner:hover .Footer_Place_Address_Text {
+  color: black;
+}

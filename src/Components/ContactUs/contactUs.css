@@ -7,9 +7,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+.Contact_Content_Wrapper {
   padding-left: 10%;
   padding-right: 10%;
-  align-items: center;
 }
 .Contact_Image_Container {
   height: 65vh;
@@ -19,17 +21,221 @@
   background-size: cover;
   background-position: center;
   border-radius: 10px;
-  filter: grayscale(100%);
   position: relative;
 }
 .Contact_Image_Text_Container {
   height: 25vh;
-  width: 25vw;
+  width: 17vw;
   background-image: url("../../Assets/Contact_Text_Image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: absolute;
-  left: -125px;
-  top: 150px;
+  left: -110px;
+  top: 160px;
+  transform: skewX(-17deg);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contact_Latest_Text {
+  font-size: 2rem;
+  color: white;
+}
+.Contact_Paragraph {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 500;
+}
+.Contact_Text_Container {
+  transform: skewX(17deg);
+  margin-left: 15%;
+  margin-right: 10%;
+}
+.Region_Text_Main_Container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  align-items: center;
+}
+.Region_Text {
+  font-size: 2.5rem;
+  color: #ed1b24;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.Region_Text_Paragraph {
+  font-size: 3.5rem;
+  color: black;
+  font-weight: bold;
+  line-height: 1.3;
+}
+.Region_Paragraph {
+  font-size: 1.7rem;
+  color: #c4c4c4;
+  width: 45%;
+  text-align: justify;
+}
+.Region_Text_Container {
+  width: 45%;
+}
+.Contact_Map_Main_Container {
+  /* background-color: green; */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.Contact_Map_Container {
+  filter: grayscale(100%);
+  background-color: #f8f8f8;
+  width: 32.5%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.Map_Image_Wrapper {
+  opacity: 25%;
+  height: 65%;
+  width: 65%;
+}
+.Map_Image_Wrapper img {
+  height: auto;
+  width: 100%;
+}
+.Contact_Map_Container:hover {
+  filter: grayscale(0%);
+  transition: ease-in-out 0.2s all;
+}
+
+.Contact_Map_Container:hover .Map_Image_Wrapper {
+  opacity: 80%;
+}
+.Contact_Loc_Text {
+  font-size: 2rem;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: black;
+  font-weight: 500;
+}
+.Contact_Form_Divider {
+  background-color: #ed1b24;
+  height: 100px;
+  width: 100%;
+  margin-top: 200px;
+  position: absolute;
+}
+.Contact_Form_Container {
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 80%;
+  height: 75vh;
+  margin: 0 auto;
+  position: relative;
+  margin-top: -80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 15px;
+}
+.Contact_Form_Text_Container {
+  width: 50%;
+  border-radius: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.Contact_Form_Image_Container {
+  width: 50%;
+  border-radius: 20px;
+}
+.Contact_Form_Image_Container img {
+  height: 100%;
+  width: 100%;
+}
+.Input_Header_Text {
+  font-size: 4rem;
+  color: black;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.Diviver_Contact {
+  height: 3px;
+  background-color: #ed1b24;
+  display: inline-block;
+  width: 140px;
+  border-radius: 25px;
+}
+.input_container {
+  border: 0.5px solid #666666;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 8px 8px;
+  background-color: white;
+  display: flex;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+.input_container:hover {
+  border: 0.5px solid #ed1b24;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.input_Email {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  width: auto;
+  flex-grow: 1;
+  font-size: 1.7rem;
+  width: 100%;
+  background-color: white;
+}
+.Contact_Input_Wrapper {
+  margin-top: 30px;
+}
+#Contact_Text_Area {
+  width: 100%;
+  border: 0.5px solid #666666;
+  margin-top: 15px;
+  border-radius: 5px;
+  height: 16rem;
+  outline: none;
+  font-size: 1.7rem;
+  padding-top: 10px;
+  padding-left: 15px;
+  resize: none;
+}
+#Contact_Text_Area:hover {
+  border: 0.5px solid #ed1b24;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.Contact_Send_Button {
+  display: inline-block;
+  width: 18rem;
+  min-height: 5rem;
+  background-color: #ed1b24;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Contact_Send_Button:hover {
+  background-color: white;
+  border: 2px solid #ed1b24;
+  color: #ed1b24;
+  transition: ease-in-out 0.2s all;
+}
+.Contact_Button_Form_Wrapper {
+  display: flex;
+  justify-content: flex-end;
 }
