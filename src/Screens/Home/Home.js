@@ -5,10 +5,12 @@ import About from "../../Components/About/About";
 import Project from "../../Components/Project/Project";
 import Product from "../../Components/Product/Product";
 import ContactUs from "../../Components/ContactUs/ContactUs";
+import Navbar from "../../Components/Navbar/Navbar";
 
 const Home = () => {
   return (
     <div id="parent">
+      <Navbar />
       <Header />
       <About />
       <Project />

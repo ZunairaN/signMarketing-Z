@@ -1,10 +1,13 @@
 .Header_background {
-  height: 125vh;
+  height: 100%;
+  min-height: 100vh;
   width: 100%;
-  background-color: white;
+  /* background-color: green; */
+  overflow: hidden;
+  position: relative;
 }
 .Header_Image_background {
-  height: 125vh;
+  height: 100%;
   width: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,7 +57,7 @@
 }
 .Header_Pro_Bg {
   background-image: url("../../Assets/Pro_BG.png");
-  height: 450px;
+  height: 550px;
   width: 100%;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -65,23 +68,25 @@
   display: flex;
   display: flex;
   align-items: center;
-  padding-left: 15rem;
+  padding-left: 25rem;
 }
 .Header_bottom_container {
   padding: 25px;
   width: 100%;
   background-color: #f0f0f0;
   position: absolute;
-  margin-top: -15px;
   display: flex;
+  margin-top: -15px;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  bottom: 0;
 }
 
 .cout_Text {
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   text-align: center;
 }
 .text_Wrapper {
@@ -89,20 +94,19 @@
 }
 .header_Pro_Bg_Text {
   font-size: 1.5rem;
-  padding-top: 10px;
   text-align: center;
 }
 
 .DisriProject_Container {
   background-color: #ffffff;
-  border-radius: 10px;
-  width: 30rem;
-  height: 25rem;
+  border-radius: 15px;
+  width: 25rem;
+  height: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 2.5rem;
+  margin-left: 2rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .DisriProject_Container:hover {
@@ -135,7 +139,7 @@
 }
 
 .label_Text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 10px;
 }
 .Header_Conatiner {

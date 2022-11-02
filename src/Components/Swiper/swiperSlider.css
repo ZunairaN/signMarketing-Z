@@ -1,12 +1,13 @@
 .Swiper_Wrapper {
-  background-color: grey;
   height: 300px;
   width: 450px;
   border-radius: 10px;
 }
 .mySwiper {
   height: 300px;
+  width: 450px;
   padding-left: 50px;
+  border-radius: 10px;
 }
 .Swiper_Image_Bg {
   height: 100%;

@@ -1,20 +1,29 @@
 .Footer_Bg_Container {
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  min-height: 750px;
   margin-top: 100px;
   background-image: url("../../Assets/Footer_Bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 50px;
 }
 .Footer_Content_Main_Container {
+  min-height: 50vh;
   width: 80%;
   margin: 0 auto;
   flex-direction: row;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 70px;
+  /* background-color: red; */
+}
+.Footer_Wrapper_Content {
+  width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 .Footer_Loaction_Content_Conatiner {
   width: 49%;
@@ -55,4 +64,148 @@
 }
 .Footer_Loaction_Content_Conatiner:hover .Footer_Place_Address_Text {
   color: black;
+}
+.Contact_Footer_Social_Main_Container {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.Contact_Sub_Text {
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+}
+.input_container_Footer {
+  border: 0.5px solid #666666;
+  width: 25vw;
+  border-radius: 5px;
+  padding: 5px 5px;
+  background-color: white;
+  display: flex;
+
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+.input_Email_Footer {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  flex-grow: 1;
+  font-size: 1.7rem;
+  width: 100%;
+  background-color: white;
+}
+
+.input_container_Footer:hover {
+  border: 0.5px solid #ed1b24;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.Footer_Sub_Button {
+  border: none;
+  outline: none;
+  width: 15vw;
+  height: 40px;
+  background-color: #ed1b24;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+/* .Footer_Sub_Button:hover {
+  background-color: white;
+  border: 1px solid #ed1b24;
+  color: #ed1b24;
+  font-size: 1.4rem;
+  font-weight: 500;
+} */
+
+.Contact_Footer_Social_Icons_Container {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 15px;
+  display: flex;
+  padding: 50px 0px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.Footer_Links_Conatiner {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.Footer_Icons_Conatiner {
+  display: flex;
+  width: 23%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.FaceBook:hover #facebook {
+  fill: #ed1b24;
+  transition: ease-in-out 0.2s all;
+}
+.Twitter:hover #twitter {
+  fill: #ed1b24;
+  transition: ease-in-out 0.2s all;
+}
+.Vimeo:hover #vimeo {
+  fill: #ed1b24;
+  transition: ease-in-out 0.2s all;
+}
+.Youtube:hover #youtube {
+  fill: #ed1b24;
+  transition: ease-in-out 0.2s all;
+}
+
+.Footer_Link_Text {
+  font-size: 1.9rem;
+  color: black;
+  font-weight: 500;
+}
+.Footer_Link_Text:hover {
+  color: #ed1b24;
+  transition: ease-in-out 0.3s all;
+}
+
+.Footer_Terms_Condition_Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+.Footer_Terms_Wrapper {
+  display: flex;
+}
+.Footer_Righs_Reserved_Text {
+  font-size: 1.7rem;
+  color: black;
+  font-weight: 400;
+}
+.Footer_Text {
+  font-size: 1.7rem;
+  color: black;
+  font-weight: 400;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.Footer_Text:hover {
+  color: #ed1b24;
+}
+.Footer_Divider {
+  height: 1px;
+  width: 100%;
+  background-color: #666666;
 }

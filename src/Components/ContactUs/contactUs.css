@@ -3,19 +3,19 @@
   background-color: white;
 }
 .Contact_Swiper_Container {
-  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 .Contact_Content_Wrapper {
+  margin-top: 130px;
   padding-left: 10%;
   padding-right: 10%;
 }
 .Contact_Image_Container {
   height: 65vh;
-  width: 30vw;
+  width: 40%;
   background-image: url("../../Assets/ContactUsImage.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,15 +25,15 @@
 }
 .Contact_Image_Text_Container {
   height: 25vh;
-  width: 17vw;
+  width: 30vh;
   background-image: url("../../Assets/Contact_Text_Image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: absolute;
-  left: -110px;
-  top: 160px;
-  transform: skewX(-17deg);
+  left: -100px;
+  top: 150px;
+  transform: skewX(-15deg);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -161,7 +161,7 @@
   width: 100%;
 }
 .Input_Header_Text {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: black;
   font-weight: 700;
   margin-top: 30px;
@@ -221,6 +221,7 @@
   min-height: 5rem;
   background-color: #ed1b24;
   font-size: 2rem;
+  font-weight: 500;
   color: white;
   display: flex;
   justify-content: center;
@@ -234,6 +235,7 @@
   border: 2px solid #ed1b24;
   color: #ed1b24;
   transition: ease-in-out 0.2s all;
+  font-weight: 500;
 }
 .Contact_Button_Form_Wrapper {
   display: flex;

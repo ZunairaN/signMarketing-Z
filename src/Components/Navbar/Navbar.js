@@ -114,7 +114,7 @@ const Navbar = ({ visible }) => {
                   scrolldiv("Header_Section");
                   setToggleMenu(false);
                 }}
-                className={activeHome ? "Active_Link" : ""}
+                className={activeHome ? "Active_Link" : "black"}
               >
                 <a style={{ color: isScrolling ? "black" : "white" }}>Home</a>
               </li>

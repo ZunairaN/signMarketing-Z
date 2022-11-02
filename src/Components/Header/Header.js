@@ -19,7 +19,6 @@ const Header = () => {
   return (
     <div id="Header_Section">
       <section className="Header_background">
-        <Navbar />
         <div className="Header_Image_background"></div>
         <div className="Header_Conatiner">
           <div className="Header_Text_Container">

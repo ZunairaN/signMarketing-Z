@@ -1,13 +1,18 @@
 .Product_background {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .Main_Content_Conatiner {
+  min-height: 90vh;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
-  padding-top: 50px;
+  /* background-color: green; */
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 .product_Text_Container {
   width: 60%;
@@ -80,7 +85,7 @@
 .Product_Btn_Container {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .Product_Discover {
   padding: 12px;
