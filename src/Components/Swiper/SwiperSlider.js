@@ -69,12 +69,7 @@ const SwiperSlider = () => {
   const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "row",
-      }}
-    >
+    <div className="Swiper_Main_Container">
       <div className="Swiper_Pagination_Wrapper">
         <div className="Swiper_Bullet_Container">
           <span

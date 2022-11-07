@@ -110,6 +110,7 @@
   top: 0;
   padding-left: 10%;
   padding-right: 10%;
+  overflow: hidden;
 }
 .Active_Header {
   transition: 400ms ease-in-out;
@@ -240,6 +241,7 @@
     width: 100%;
     z-index: 995;
     padding: 0;
+    overflow: hidden;
     /* background-color: white; */
     top: 0;
     /* background-color: var(--gradient-bg); */

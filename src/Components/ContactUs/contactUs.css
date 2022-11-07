@@ -25,7 +25,7 @@
 }
 .Contact_Image_Text_Container {
   height: 25vh;
-  width: 30vh;
+  width: 18vw;
   background-image: url("../../Assets/Contact_Text_Image.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,7 +72,7 @@
   line-height: 1.3;
 }
 .Region_Paragraph {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #c4c4c4;
   width: 45%;
   text-align: justify;
@@ -240,4 +240,173 @@
 .Contact_Button_Form_Wrapper {
   display: flex;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 550px) {
+  .Contact_background {
+    min-height: 100vh;
+    background-color: white;
+    overflow: hidden;
+  }
+  .Contact_Content_Wrapper {
+    margin-top: 150px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Contact_Swiper_Container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between;
+    align-items: center; */
+  }
+  .Contact_Image_Container {
+    height: 30vh;
+    width: 100%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Contact_Image_Text_Container {
+    height: 23vh;
+    width: 70vw;
+    background-image: url("../../Assets/Contact_Text_Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 50px;
+    left: 0;
+    transform: skewX(-15deg);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contact_Latest_Text {
+    font-size: 1.6rem;
+    color: white;
+  }
+  .Contact_Paragraph {
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+  }
+
+  .Region_Text_Main_Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+    /* background-color: yellow; */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .Region_Text_Container {
+    width: 100%;
+  }
+
+  .Region_Text {
+    font-size: 2.4rem;
+    color: #ed1b24;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .Region_Text_Paragraph {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: center;
+  }
+  .Region_Paragraph {
+    font-size: 1.8rem;
+    color: #c4c4c4;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .Contact_Map_Main_Container {
+    /* background-color: green; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Contact_Map_Container {
+    filter: grayscale(100%);
+    background-color: #f8f8f8;
+    width: 80%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  .Map_Image_Wrapper {
+    opacity: 25%;
+    height: 60%;
+    width: 60%;
+  }
+  .Map_Image_Wrapper img {
+    height: auto;
+    width: 100%;
+  }
+  .Contact_Loc_Text {
+    font-size: 1.8rem;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: black;
+    font-weight: 500;
+  }
+  .Contact_Form_Divider {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    position: absolute;
+  }
+
+  .Contact_Form_Container {
+    background-color: white;
+    box-shadow: none;
+    width: 100%;
+    height: 65vh;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .Contact_Form_Text_Container {
+    width: 100%;
+    min-height: 60vh;
+    border-radius: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* background-color: yellow; */
+  }
+
+  .Contact_Form_Image_Container {
+    display: none;
+  }
 }

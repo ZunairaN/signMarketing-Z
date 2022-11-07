@@ -34,7 +34,7 @@
 }
 .Product_Paragraph {
   color: #393939;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: 500;
 }
@@ -127,4 +127,101 @@
 }
 .Icons_Wrapper {
   margin-left: 10px;
+}
+
+@media screen and (max-width: 550px) {
+  .Product_background {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #eeeeee;
+    /* background-color: green; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+  }
+
+  .Main_Content_Conatiner {
+    min-height: 90vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    overflow: hidden;
+  }
+
+  .product_Text_Container {
+    width: 100%;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Benefit_Text {
+    color: #ed1b24;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  .Design_Text {
+    color: black;
+    font-size: 2.8rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  .Product_Paragraph {
+    color: #393939;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 15px;
+  }
+
+  .Product_Experience_Container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    /* background-color: red; */
+  }
+  .Exp_Container {
+    width: 100%;
+    /* background-color: green; */
+    margin-left: 0;
+    margin-top: 0;
+    display: flex;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in 0.3s all;
+  }
+
+  .Product_Btn_Main_Container {
+    display: flex;
+    justify-content: center;
+  }
+  .Product_Btn_Container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 25px;
+    /* background-color: green; */
+    justify-content: space-evenly;
+  }
+  .Product_Discover {
+    padding: 14px;
+    font-size: 12px;
+    background-color: #ed1b24;
+    color: white;
+    width: 150px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+  }
 }

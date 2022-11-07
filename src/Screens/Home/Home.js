@@ -10,7 +10,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 const Home = () => {
   return (
     <div id="parent">
-      <Navbar />
+      {/* <Navbar /> */}
       <Header />
       <About />
       <Project />

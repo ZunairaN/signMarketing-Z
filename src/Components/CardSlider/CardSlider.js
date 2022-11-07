@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./cardSlider.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
@@ -14,6 +14,27 @@ import WhatsApp from "../../Assets/WhatsApp";
 
 const CardSlider = () => {
   const [activeSlide, setActiveSlide] = useState(0);
+  const [slidePerView, setSlidePerView] = useState(4);
+
+  useEffect(() => {
+    if (window.innerWidth < 600 || window.innerWidth == 600) setSlidePerView(1);
+    else if (window.innerWidth < 900 || window.innerWidth == 900)
+      setSlidePerView(2);
+    else if (window.innerWidth < 1280 || window.innerWidth == 1280)
+      setSlidePerView(3);
+    else setSlidePerView(4);
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth < 600 || window.innerWidth == 600)
+        setSlidePerView(1);
+      else if (window.innerWidth < 900 || window.innerWidth == 900)
+        setSlidePerView(2);
+      else if (window.innerWidth < 1280 || window.innerWidth == 1280)
+        setSlidePerView(3);
+      else setSlidePerView(4);
+    });
+    return () => window.removeEventListener("resize", null);
+  }, []);
 
   const Data = [
     {
@@ -99,7 +120,7 @@ const CardSlider = () => {
         direction="horizontal"
         modules={[Navigation]}
         spaceBetween={15}
-        slidesPerView={4}
+        slidesPerView={slidePerView}
         loop={true}
         navigation={{
           prevEl: navigationPrevRef.current,

@@ -165,3 +165,113 @@
 .Card_User_Location_Iocn {
   padding-right: 15px;
 }
+
+@media screen and (max-width: 550px) {
+  .Card_Wrapper {
+    height: 500px;
+    width: 85%;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 0 auto;
+  }
+  .Card_Image_Bg {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+
+  .Card_Content_Container {
+    height: 35%;
+    width: 70%;
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-self: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Card_Image_Bg:hover .Card_Content_Container {
+    height: 100%;
+    width: 85%;
+    bottom: 0;
+    background-color: rgba(250, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper_button_wrapper {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 37px;
+    z-index: 555;
+    cursor: pointer;
+  }
+  .Pre_button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 10px;
+  }
+  .Next_button {
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  .swiper_pagination_wrapper {
+    /* background-color: green; */
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-right: 90px;
+  }
+  .swiper_pagination_bullet {
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border-radius: 50%;
+    background: gray;
+    align-self: center;
+    margin-left: 5px;
+  }
+  .swiper_pagination_bullet_Active {
+    display: inline-block;
+    width: 14px !important;
+    background-color: #ed1b24 !important;
+    border-radius: 20px !important;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

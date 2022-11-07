@@ -1,3 +1,8 @@
+.Footer_Main_Conatiner {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
 .Footer_Bg_Container {
   height: 100%;
   width: 100%;
@@ -23,7 +28,7 @@
   width: 100%;
   width: 80%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: -90px;
 }
 .Footer_Loaction_Content_Conatiner {
   width: 49%;
@@ -208,4 +213,176 @@
   height: 1px;
   width: 100%;
   background-color: #666666;
+}
+
+@media screen and (max-width: 550px) {
+  .Footer_Main_Conatiner {
+    background-color: white;
+    min-height: 200vh;
+    width: 100%;
+    /* overflow: hidden; */
+  }
+  .Footer_Bg_Container {
+    width: 100%;
+    height: 1350px;
+    margin-top: 100px;
+    background-image: url("../../Assets/Footer_Bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    /* overflow: hidden; */
+  }
+  .Footer_Content_Main_Container {
+    min-height: 50vh;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* background-color: red; */
+    align-items: center;
+  }
+  .Footer_Loaction_Content_Conatiner {
+    width: 90%;
+    box-sizing: border-box;
+    padding: 25px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    cursor: default;
+  }
+  .Footer_Place_Name_Text {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+  .Footer_Place_Address_Text {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 400;
+    transition: ease-in-out 0.2s all;
+  }
+  .Footer_Wrapper_Content {
+    width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -15px;
+    /* background-color: red; */
+  }
+  .Contact_Footer_Social_Main_Container {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 0px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Contact_Sub_Text {
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .Contact_Sub_Button_Main_Container {
+    width: 90%;
+  }
+  .input_container_Footer {
+    border: 0.5px solid #666666;
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px 3px;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+  }
+  .Footer_Sub_Button {
+    border: none;
+    outline: none;
+    width: 45%;
+    height: 40px;
+    background-color: #ed1b24;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+  .Contact_Footer_Social_Icons_Container {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    box-sizing: border-box;
+  }
+  .Footer_Links_Conatiner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .Footer_Link_Text {
+    font-size: 2rem;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+  }
+  .Footer_Icons_Conatiner {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-top: 50px;
+  }
+  .Footer_Divider {
+    height: 0.25px;
+    width: 80%;
+    background-color: #666666;
+    margin: 0 auto;
+  }
+  .Footer_Terms_Condition_Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+  }
+  .Footer_Terms_Wrapper {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .Footer_Text {
+    font-size: 1.5rem;
+    color: #1b1a1a;
+    font-weight: 400;
+    padding-left: 0px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .Footer_Text:hover {
+    color: #ed1b24;
+  }
+  .Footer_Righs_Reserved_Text {
+    font-size: 1.7rem;
+    color: #1b1a1a;
+    font-weight: 400;
+    width: 80%;
+    text-align: center;
+  }
 }

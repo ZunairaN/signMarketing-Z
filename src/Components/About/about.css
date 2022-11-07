@@ -228,7 +228,7 @@
     background-image: url("../../Assets/About_BG.png");
     overflow: hidden;
     margin-top: 0;
-    padding-top: 120px;
+    padding-top: 80px;
     margin-bottom: 0;
     border-radius: 0;
     display: flex;
@@ -254,26 +254,33 @@
   .About_Paragraph_Text {
     font-size: 1.4rem;
   }
+  .About_Btn_Container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    justify-content: space-between;
+  }
   .About_Arrow_Container {
     display: flex;
-    margin-left: 25px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    width: 50%;
   }
   .ABout_Discover {
-    padding: 12px 12px;
+    padding: 13px 12px;
     font-size: 12px;
     background-color: #ffffff;
     color: #ed1b24;
-    width: 100px;
-    border-radius: 8px;
+    width: 50%;
+    border-radius: 10px;
     cursor: pointer;
   }
   .Inner_Container_Second {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .About_Loaction_Count_Container {
     background-color: white;
