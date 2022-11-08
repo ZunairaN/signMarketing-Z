@@ -28,9 +28,12 @@
   width: 60%;
 }
 .Inner_Container_Second {
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* background-color: red; */
+  justify-content: space-between;
 }
 .About_Text {
   font-size: 4rem;
@@ -160,25 +163,16 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-/* @keyframes change-color {
-  0% {
-    background-color: none;
-  }
-
-  50% {
-    background-color: #f3f3f3;
-  }
-
-  100% {
-    background-color: none;
-  }
-} */
+.back {
+  background-color: red;
+}
 
 .About_Loaction_Count_Container_1 {
   border-radius: 10px;
   padding: 2%;
   width: 80%;
+  cursor: default;
+  padding-bottom: 5px;
 }
 .About_Loaction_Count_Container_1:hover {
   background-color: white;
@@ -188,10 +182,23 @@
   color: black;
   transition: ease-in 0.3s all;
 }
+.About_Loaction_Count_Container_1_Active {
+  border-radius: 10px;
+  padding: 2%;
+  width: 80%;
+  cursor: default;
+  background-color: white;
+  transition: ease-in 0.3s all;
+}
+.About_Loaction_Count_Container_1_Active div {
+  color: black;
+  transition: ease-in 0.3s all;
+}
 .About_Loaction_Count_Container_2 {
   border-radius: 10px;
   padding: 2%;
   width: 80%;
+  cursor: default;
 }
 .About_Loaction_Count_Container_2:hover {
   background-color: white;
@@ -207,6 +214,7 @@
   border-radius: 10px;
   padding: 2%;
   width: 80%;
+  cursor: default;
 }
 .About_Loaction_Count_Container_3:hover {
   background-color: white;
@@ -279,8 +287,10 @@
   .Inner_Container_Second {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* background-color: green; */
+    justify-content: space-between;
   }
   .About_Loaction_Count_Container {
     background-color: white;

@@ -3,19 +3,8 @@ import Navbar from "../Navbar/Navbar";
 import "./header.css";
 import HeaderText from "../../Assets/Header_Text.png";
 import GifSvg from "../../Assets/GifSvg";
-import Image_1 from "../../Assets/Image_1_Gray.png";
-import Image_2 from "../../Assets/Image_2_Gray.png";
-import Image_3 from "../../Assets/Image_3_Gray.png";
-import Image_4 from "../../Assets/Image_4_Gray.png";
-import Image_5 from "../../Assets/Image_5_Gray.png";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-
-// import required modules
-import { Pagination } from "swiper";
 
 const DisriProject = (props) => {
   return (
@@ -29,43 +18,27 @@ const DisriProject = (props) => {
 };
 
 const HeaderImageSlider = () => {
-  const navigationPrevRef = React.useRef(null);
-  const navigationNextRef = React.useRef(null);
   return (
-    <Swiper
-      direction="horizontal"
-      slidesPerView={1}
-      spaceBetween={30}
-      loop={true}
-      modules={[Navigation]}
-      navigation={{
-        prevEl: navigationPrevRef.current,
-        nextEl: navigationNextRef.current,
-      }}
-      pagination={{ clickable: true }}
-      onSlideChange={(swiper) => {
-        // setActiveSlide(swiper.realIndex);
-      }}
-      onSwiper={(swiper) => {
-        console.log("swiper.activeIndex", swiper.activeIndex);
-        swiper.params.navigation.prevEl = navigationPrevRef.current;
-        swiper.params.navigation.nextEl = navigationNextRef.current;
-        swiper.navigation.init();
-        swiper.navigation.update();
-      }}
-      className="mySwiperHeader"
-    >
-      <SwiperSlide>
-        <div className="mySwiperHeader_Animation_Container">
+    <div class="marquee">
+      <div class="marquee--inner">
+        <span>
           <div className="Image_1"></div>
           <div className="Image_2"></div>
           <div className="Image_3"></div>
           <div className="Image_4"></div>
           <div className="Image_5"></div>
+          <div className="Image_1"></div>
+        </span>
+        <span style={{ paddingLeft: "55px" }}>
+          <div className="Image_5"></div>
           <div className="Image_2"></div>
-        </div>
-      </SwiperSlide>
-    </Swiper>
+          <div className="Image_3"></div>
+          <div className="Image_4"></div>
+          <div className="Image_5"></div>
+          <div className="Image_1"></div>
+        </span>
+      </div>
+    </div>
   );
 };
 
@@ -114,9 +87,7 @@ const Header = () => {
         </div>
 
         <div className="Header_bottom_container">
-          <div className="Animation_Wrapper">
-            <HeaderImageSlider />
-          </div>
+          <HeaderImageSlider />
         </div>
       </section>
     </div>

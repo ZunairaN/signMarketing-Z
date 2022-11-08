@@ -29,9 +29,11 @@
   width: 100%;
 }
 .paragraph {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #ffffff;
   text-align: justify;
+  font-family: var(--font-subHeading);
+  font-weight: 500;
 }
 .Btn_wrapper {
   width: 50%;
@@ -52,6 +54,7 @@
   margin-top: 2rem;
   width: 150px;
   font-weight: bold;
+  font-family: var(--font-Heading);
 }
 .Discover:hover {
   background-color: #ed1b24;
@@ -69,12 +72,11 @@
   margin-top: 100px;
   position: relative;
   display: flex;
-  display: flex;
   align-items: center;
   padding-left: 25rem;
 }
 .Header_bottom_container {
-  padding: 25px;
+  /* padding: 25px; */
   width: 100%;
   background-color: #f0f0f0;
   position: absolute;
@@ -92,25 +94,19 @@
 .mySwiperHeader {
   height: 80px;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 .HeaderSlider_Card {
   height: 100px;
   width: 100px;
-  background-color: red;
 }
 
 .Animation_Wrapper {
   display: flex;
   width: 100%;
 }
-@keyframes scroll {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+
 .Header_Bottom_Image_Container img {
   padding-left: 30px;
 }
@@ -120,17 +116,11 @@
   width: 100%;
 }
 
-.mySwiperHeader_Animation_Container {
-  width: 100%;
-  display: flex;
-  animation: scroll 10s linear infinite;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .cout_Text {
   font-size: 3.3rem;
   text-align: center;
+  font-family: var(--font-Heading);
+  font-weight: bold;
 }
 .text_Wrapper {
   margin-top: 20px;
@@ -138,6 +128,7 @@
 .header_Pro_Bg_Text {
   font-size: 1.5rem;
   text-align: center;
+  font-family: var(--font-Heading);
 }
 
 .DisriProject_Container {
@@ -184,6 +175,7 @@
 .label_Text {
   font-size: 1.5rem;
   margin-top: 10px;
+  font-family: var(--font-Heading);
 }
 .Header_Conatiner {
   width: 80%;
@@ -199,7 +191,7 @@
 .No_Project_Conatiner {
   height: 100%;
   background-color: white;
-  width: 23rem;
+  width: 30rem;
   position: absolute;
   right: 0;
   border-radius: 15px;
@@ -211,9 +203,51 @@
 .text_Container {
   display: flex;
   flex-direction: column;
+  margin-top: -100px;
 }
+
+.marquee {
+  height: 120px;
+  width: 100%;
+  border: 2px solid #eee;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.marquee--inner {
+  width: 200%;
+  margin: 70px 0;
+  position: absolute;
+  animation: marquee 15s linear infinite;
+  display: flex;
+  flex-direction: row;
+}
+
+.marquee--inner:hover {
+  animation-play-state: paused;
+}
+
+span {
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
 .Image_1 {
-  height: 35px;
+  height: 50px;
   width: 150px;
   background-image: url("../../Assets/Image_1_Gray.png");
   background-repeat: no-repeat;
@@ -221,9 +255,11 @@
   transition: ease-in 0.3s all;
   align-self: center;
   cursor: pointer;
+  margin-top: 5px;
+  /* background-color: green; */
 }
 .Image_1:hover {
-  height: 35px;
+  height: 50px;
   width: 150px;
   background-image: url("../../Assets/Image_1.png");
   background-repeat: no-repeat;
@@ -234,17 +270,18 @@
 }
 .Image_2 {
   height: 55px;
-  width: 150px;
+  width: 100px;
   background-image: url("../../Assets/Image_2_Gray.png");
   background-repeat: no-repeat;
   background-size: contain;
   transition: ease-in 0.3s all;
   align-self: center;
   cursor: pointer;
+  /* background-color: red; */
 }
 .Image_2:hover {
   height: 55px;
-  width: 150px;
+  width: 100px;
   background-image: url("../../Assets/Image_2.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -254,17 +291,18 @@
 }
 .Image_3 {
   height: 55px;
-  width: 150px;
+  width: 130px;
   background-image: url("../../Assets/Image_3_Gray.png");
   background-repeat: no-repeat;
   background-size: contain;
   transition: ease-in 0.3s all;
   align-self: center;
   cursor: pointer;
+  /* background-color: yellow; */
 }
 .Image_3:hover {
   height: 55px;
-  width: 150px;
+  width: 130px;
   background-image: url("../../Assets/Image_3.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -273,18 +311,19 @@
   cursor: pointer;
 }
 .Image_4 {
-  height: 55px;
-  width: 150px;
+  height: 50px;
+  width: 120px;
   background-image: url("../../Assets/Image_4_Gray.png");
   background-repeat: no-repeat;
   background-size: contain;
   transition: ease-in 0.3s all;
   align-self: center;
   cursor: pointer;
+  /* background-color: aqua; */
 }
 .Image_4:hover {
-  height: 55px;
-  width: 150px;
+  height: 50px;
+  width: 120px;
   background-image: url("../../Assets/Image_4.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -301,6 +340,7 @@
   transition: ease-in 0.3s all;
   align-self: center;
   cursor: pointer;
+  /* background-color: brown; */
 }
 .Image_5:hover {
   height: 55px;
@@ -410,6 +450,7 @@
   .label_Text {
     font-size: 1.5rem;
     margin-top: 10px;
+    font-family: var(--font-Heading);
   }
   .No_Project_Conatiner {
     width: 100%;
@@ -426,6 +467,8 @@
   .text_Container {
     display: flex;
     flex-direction: row;
+    /* background-color: red; */
+    padding-top: 35px;
   }
   .text_Wrapper {
     margin-left: 20px;
@@ -442,134 +485,153 @@
   .cout_Text {
     font-size: 3.5rem;
     text-align: center;
+    font-family: var(--font-Heading);
+    font-weight: bold;
   }
   .header_Pro_Bg_Text {
     font-size: 1.5rem;
     padding-top: 10px;
     text-align: center;
+    font-family: var(--font-Heading);
   }
   .Header_bottom_container {
     padding: 5px;
     width: 100%;
     background-color: #f0f0f0;
     position: absolute;
-    margin-top: -15px;
+    margin-top: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    bottom: 0;
+  }
+
+  .marquee {
+    height: 100px;
+    width: 100%;
+    border: 2px solid #eee;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
 
   .Image_1 {
-    height: 50px;
-    width: 200px;
+    height: 40px;
+    width: 150px;
     background-image: url("../../Assets/Image_1_Gray.png");
     background-repeat: no-repeat;
     background-size: contain;
     transition: ease-in 0.3s all;
     align-self: center;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: 15px;
+    /* background-color: green; */
+    margin-left: 50px;
   }
   .Image_1:hover {
-    height: 50px;
-    width: 200px;
+    height: 40px;
+    width: 150px;
     background-image: url("../../Assets/Image_1.png");
     background-repeat: no-repeat;
     background-size: contain;
     transition: ease-in 0.3s all;
     align-self: center;
     cursor: pointer;
-    margin-top: 5px;
+    margin-left: 50px;
   }
   .Image_2 {
-    height: 100px;
-    width: 200px;
+    height: 40px;
+    width: 100px;
     background-image: url("../../Assets/Image_2_Gray.png");
     background-repeat: no-repeat;
     background-size: contain;
     transition: ease-in 0.3s all;
     align-self: center;
     cursor: pointer;
-    margin-top: -5px;
-    margin-left: 10px;
+    /* background-color: red; */
+    margin-left: 50px;
   }
   .Image_2:hover {
-    height: 100px;
-    width: 200px;
+    height: 40px;
+    width: 100px;
     background-image: url("../../Assets/Image_2.png");
     background-repeat: no-repeat;
     background-size: contain;
     transition: ease-in 0.3s all;
     align-self: center;
     cursor: pointer;
-    margin-top: -5px;
+    margin-left: 50px;
   }
   .Image_3 {
-    height: 70px;
-    width: 200px;
+    height: 40px;
+    width: 130px;
     background-image: url("../../Assets/Image_3_Gray.png");
     background-repeat: no-repeat;
     background-size: contain;
     transition: ease-in 0.3s all;
     align-self: center;
     cursor: pointer;
-    margin-top: -5px;
+    /* background-color: yellow; */
+    margin-left: 50px;
   }
   .Image_3:hover {
-    height: 70px;
-    width: 200px;
+    height: 40px;
+    width: 130px;
     background-image: url("../../Assets/Image_3.png");
     background-repeat: no-repeat;
     background-size: contain;
     transition: ease-in 0.3s all;
     align-self: center;
     cursor: pointer;
-    margin-top: -5px;
+    margin-left: 50px;
   }
   .Image_4 {
-    height: 80px;
-    width: 200px;
+    height: 40px;
+    width: 120px;
     background-image: url("../../Assets/Image_4_Gray.png");
     background-repeat: no-repeat;
     background-size: contain;
     transition: ease-in 0.3s all;
     align-self: center;
     cursor: pointer;
-    margin-top: 15px;
-    margin-left: 10px;
+    /* background-color: aqua; */
+    margin-left: 50px;
   }
   .Image_4:hover {
-    height: 80px;
-    width: 200px;
+    height: 40px;
+    width: 120px;
     background-image: url("../../Assets/Image_4.png");
     background-repeat: no-repeat;
     background-size: contain;
     transition: ease-in 0.3s all;
     align-self: center;
     cursor: pointer;
-    margin-top: 10px;
+    margin-left: 50px;
   }
   .Image_5 {
-    height: 70px;
-    width: 200px;
+    height: 40px;
+    width: 150px;
     background-image: url("../../Assets/Image_5_Gray.png");
     background-repeat: no-repeat;
     background-size: contain;
     transition: ease-in 0.3s all;
     align-self: center;
     cursor: pointer;
-    margin-top: 5px;
+    /* background-color: brown; */
+    margin-left: 50px;
   }
   .Image_5:hover {
-    height: 70px;
-    width: 200px;
+    height: 40px;
+    width: 150px;
     background-image: url("../../Assets/Image_5.png");
     background-repeat: no-repeat;
     background-size: contain;
     transition: ease-in 0.3s all;
     align-self: center;
     cursor: pointer;
-    margin-top: 5px;
+    margin-left: 50px;
   }
 }
