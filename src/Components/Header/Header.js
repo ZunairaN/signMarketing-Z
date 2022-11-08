@@ -3,6 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import "./header.css";
 import HeaderText from "../../Assets/Header_Text.png";
 import GifSvg from "../../Assets/GifSvg";
+
 import "swiper/css";
 import "swiper/css/pagination";
 

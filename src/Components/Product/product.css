@@ -69,8 +69,7 @@
 }
 .Exp_Container:hover {
   background-color: black;
-  box-shadow: rgba(10, 10, 20, 0.3) 0px 8px 24px,
-    rgba(10, 10, 20, 0.3) 0px 16px 56px, rgba(10, 10, 20, 0.3) 0px 24px 80px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .Exp_Container:hover .Product_Exp_Text {
   color: white;
