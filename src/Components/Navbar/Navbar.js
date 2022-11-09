@@ -104,7 +104,7 @@ const Navbar = ({ visible }) => {
             <ul
               className={
                 isScrolling
-                  ? "App_Links_Wrapper App_Links_Wrapper_Active"
+                  ? "App_Links_Wrapper_Active App_Links_Wrapper"
                   : "App_Links_Wrapper"
               }
             >
@@ -114,9 +114,9 @@ const Navbar = ({ visible }) => {
                   scrolldiv("Header_Section");
                   setToggleMenu(false);
                 }}
-                className={activeHome ? "Active_Link" : "black"}
+                className={activeHome ? "Active_Link" : ""}
               >
-                <a style={{ color: isScrolling ? "black" : "white" }}>Home</a>
+                Home
               </li>
               <li
                 onClick={() => {
@@ -126,9 +126,7 @@ const Navbar = ({ visible }) => {
                 }}
                 className={activeAbout ? "Active_Link " : ""}
               >
-                <a style={{ color: isScrolling ? "black" : "white" }}>
-                  About Us
-                </a>
+                About Us
               </li>
               <li
                 onClick={() => {
@@ -138,9 +136,7 @@ const Navbar = ({ visible }) => {
                 }}
                 className={activeProject ? "Active_Link" : ""}
               >
-                <a style={{ color: isScrolling ? "black" : "white" }}>
-                  Projects
-                </a>
+                Projects
               </li>
               <li
                 onClick={() => {
@@ -150,9 +146,7 @@ const Navbar = ({ visible }) => {
                 }}
                 className={activeProduct ? "Active_Link" : ""}
               >
-                <a style={{ color: isScrolling ? "black" : "white" }}>
-                  Products
-                </a>
+                Products
               </li>
               <li
                 onClick={() => {
@@ -162,9 +156,7 @@ const Navbar = ({ visible }) => {
                 }}
                 className={activeContact ? "Active_Link" : ""}
               >
-                <a style={{ color: isScrolling ? "black" : "white" }}>
-                  Contacts
-                </a>
+                Contacts
               </li>
             </ul>
             <div className="App_Smaller_Devices">
@@ -203,7 +195,7 @@ const Navbar = ({ visible }) => {
                         }}
                         className={activeHome ? "Active_Link_Small_device" : ""}
                       >
-                        <a>Home</a>
+                        Home
                       </li>
                       <li
                         onClick={() => {
@@ -215,7 +207,7 @@ const Navbar = ({ visible }) => {
                           activeAbout ? "Active_Link_Small_device " : ""
                         }
                       >
-                        <a>About</a>
+                        About
                       </li>
                       <li
                         onClick={() => {
@@ -227,7 +219,7 @@ const Navbar = ({ visible }) => {
                           activeProject ? "Active_Link_Small_device" : ""
                         }
                       >
-                        <a>Project</a>
+                        Project
                       </li>
                       <li
                         onClick={() => {
@@ -239,7 +231,7 @@ const Navbar = ({ visible }) => {
                           activeProduct ? "Active_Link_Small_device" : ""
                         }
                       >
-                        <a>Product</a>
+                        Product
                       </li>
                       <li
                         onClick={() => {
@@ -251,7 +243,7 @@ const Navbar = ({ visible }) => {
                           activeContact ? "Active_Link_Small_device" : ""
                         }
                       >
-                        <a>Contact</a>
+                        Contact
                       </li>
                     </ul>
                   </div>

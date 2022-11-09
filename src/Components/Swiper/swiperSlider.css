@@ -224,3 +224,25 @@
     transform: rotate(-90deg);
   }
 }
+
+@media screen and (min-width: 551px) and (max-width: 850px) {
+  .Swiper_Main_Container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 100px;
+  }
+  .Swiper_Wrapper {
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+  }
+  .Swiper_Image_Bg {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+}

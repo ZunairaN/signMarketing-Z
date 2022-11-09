@@ -42,11 +42,13 @@
 .Contact_Latest_Text {
   font-size: 2rem;
   color: white;
+  font-weight: 500;
+  font-family: var(--font-subHeading);
 }
 .Contact_Paragraph {
   font-size: 2.5rem;
   color: white;
-  font-weight: 500;
+  font-family: var(--font-Heading);
 }
 .Contact_Text_Container {
   transform: skewX(17deg);
@@ -62,20 +64,22 @@
 .Region_Text {
   font-size: 2.5rem;
   color: #ed1b24;
-  font-weight: bold;
   padding-bottom: 15px;
+  font-family: var(--font-Heading);
 }
 .Region_Text_Paragraph {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: black;
-  font-weight: bold;
   line-height: 1.3;
+  font-family: var(--font-Heading);
 }
 .Region_Paragraph {
   font-size: 1.8rem;
   color: #c4c4c4;
   width: 45%;
   text-align: justify;
+  line-height: 1.4;
+  font-family: var(--font-subHeading);
 }
 .Region_Text_Container {
   width: 45%;
@@ -119,12 +123,12 @@
   opacity: 80%;
 }
 .Contact_Loc_Text {
-  font-size: 2rem;
+  font-size: 1.7rem;
   position: absolute;
   right: 20px;
   bottom: 20px;
   color: black;
-  font-weight: 500;
+  font-family: var(--font-Heading);
 }
 .Contact_Form_Divider {
   background-color: #ed1b24;
@@ -161,10 +165,10 @@
   width: 100%;
 }
 .Input_Header_Text {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: black;
-  font-weight: 700;
   margin-top: 30px;
+  font-family: var(--font-Heading);
 }
 .Diviver_Contact {
   height: 3px;
@@ -220,8 +224,7 @@
   width: 18rem;
   min-height: 5rem;
   background-color: #ed1b24;
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 1.8rem;
   color: white;
   display: flex;
   justify-content: center;
@@ -229,13 +232,15 @@
   margin-top: 25px;
   border-radius: 5px;
   cursor: pointer;
+  font-family: var(--font-Heading);
 }
 .Contact_Send_Button:hover {
   background-color: white;
   border: 2px solid #ed1b24;
   color: #ed1b24;
   transition: ease-in-out 0.2s all;
-  font-weight: 500;
+  font-family: var(--font-Heading);
+  font-size: 1.8rem;
 }
 .Contact_Button_Form_Wrapper {
   display: flex;
@@ -293,11 +298,13 @@
   .Contact_Latest_Text {
     font-size: 1.6rem;
     color: white;
+    font-family: var(--font-subHeading);
   }
   .Contact_Paragraph {
     font-size: 2rem;
     color: white;
     font-weight: 500;
+    font-family: var(--font-Heading);
   }
 
   .Region_Text_Main_Container {
@@ -320,15 +327,16 @@
     font-weight: bold;
     padding-bottom: 10px;
     text-align: center;
+    font-family: var(--font-Heading);
   }
   .Region_Text_Paragraph {
     width: 75%;
     margin: 0 auto;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: black;
-    font-weight: bold;
     line-height: 1.3;
     text-align: center;
+    font-family: var(--font-Heading);
   }
   .Region_Paragraph {
     font-size: 1.8rem;
@@ -370,12 +378,12 @@
     width: 100%;
   }
   .Contact_Loc_Text {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     position: absolute;
     right: 20px;
     bottom: 20px;
     color: black;
-    font-weight: 500;
+    font-family: var(--font-Heading);
   }
   .Contact_Form_Divider {
     background-color: white;
@@ -408,5 +416,149 @@
 
   .Contact_Form_Image_Container {
     display: none;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 850px) {
+  .Contact_background {
+    min-height: 100vh;
+    background-color: white;
+    overflow: hidden;
+  }
+  .Contact_Content_Wrapper {
+    margin-top: 150px;
+    padding: 0;
+    margin: 0;
+  }
+  .Contact_Swiper_Container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+  }
+  .Contact_Image_Container {
+    height: 45vh;
+    width: 50%;
+    background-image: url("../../Assets/ContactUsImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  .Contact_Image_Text_Container {
+    height: 18vh;
+    width: 35vw;
+    background-image: url("../../Assets/Contact_Text_Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: -100px;
+    top: 150px;
+    transform: skewX(-15deg);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Region_Text_Main_Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+    /* background-color: yellow; */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .Region_Text_Container {
+    width: 100%;
+  }
+  .Region_Text {
+    font-size: 3rem;
+    color: #ed1b24;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: var(--font-Heading);
+  }
+  .Region_Text_Paragraph {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 3rem;
+    color: black;
+    line-height: 1.3;
+    text-align: center;
+    font-family: var(--font-Heading);
+  }
+  .Region_Paragraph {
+    font-size: 1.5rem;
+    color: #c4c4c4;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-family: var(--font-subHeading);
+  }
+  .Contact_Map_Main_Container {
+    /* background-color: green; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .Contact_Map_Container {
+    filter: grayscale(100%);
+    background-color: #f8f8f8;
+    width: 49%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  .Contact_Form_Divider {
+    background-color: #ed1b24;
+    height: 100px;
+    width: 100%;
+    margin-top: 200px;
+    position: absolute;
+  }
+  .Contact_Form_Container {
+    background-color: white;
+    box-shadow: none;
+    width: 100%;
+    height: 75vh;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+  }
+  .Contact_Form_Text_Container {
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .Contact_Form_Image_Container {
+    height: 40vh;
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .Contact_Form_Image_Container img {
+    height: 100%;
+    width: 100%;
   }
 }

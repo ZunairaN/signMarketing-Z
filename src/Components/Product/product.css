@@ -23,20 +23,21 @@
 .Benefit_Text {
   color: #ed1b24;
   font-size: 3rem;
-  font-weight: 500;
   text-align: center;
+  font-family: var(--font-Heading);
 }
 .Design_Text {
   color: black;
   font-size: 4rem;
   text-align: center;
-  font-weight: bold;
+  font-family: var(--font-Heading);
 }
 .Product_Paragraph {
   color: #393939;
   font-size: 1.5rem;
   text-align: center;
   font-weight: 500;
+  font-family: var(--font-subHeading);
 }
 .Product_Experience_Container {
   display: flex;
@@ -45,6 +46,7 @@
   justify-content: center;
   padding-bottom: 20px;
   padding-top: 50px;
+  /* background-color: green; */
 }
 .Exp_Container {
   width: 45%;
@@ -52,7 +54,7 @@
   margin-left: 10px;
   margin-top: 10px;
   display: flex;
-  padding: 40px;
+  padding: 30px;
   box-sizing: border-box;
   border-radius: 10px;
   cursor: pointer;
@@ -61,11 +63,14 @@
 .Product_Exp_Text {
   font-size: 2.2rem;
   color: black;
+  font-family: var(--font-Heading);
 }
 .Pro_Pagragraph {
   font-size: 1.3rem;
   color: black;
   padding-top: 5px;
+  font-family: var(--font-subHeading);
+  text-align: justify;
 }
 .Exp_Container:hover {
   background-color: black;
@@ -95,12 +100,12 @@
   border-radius: 8px;
   cursor: pointer;
   border: none;
+  font-family: var(--font-Heading);
 }
 
 .Product_Arrow_Container {
   display: flex;
   margin-left: 20px;
-  justify-content: center;
   align-items: center;
   cursor: pointer;
   transition: ease-in 0.3s all;
@@ -108,6 +113,7 @@
 .Product_Arrow_Container:hover .Product_See_Text {
   transition: ease-in 0.3s all;
   color: #ed1b24;
+  font-family: var(--font-Heading);
 }
 .Product_Arrow_Container:hover #Button_Arrow {
   fill: #ed1b24;
@@ -119,13 +125,18 @@
   color: black;
   font-size: 1.5rem;
   cursor: pointer;
+  font-family: var(--font-Heading);
 }
 .Product_Btn_Main_Container {
   display: flex;
   justify-content: center;
 }
 .Icons_Wrapper {
+  height: auto;
   margin-left: 10px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 3px;
 }
 
 @media screen and (max-width: 550px) {
@@ -163,12 +174,13 @@
     font-size: 3rem;
     font-weight: 500;
     text-align: center;
+    font-family: var(--font-Heading);
   }
   .Design_Text {
     color: black;
     font-size: 2.8rem;
     text-align: center;
-    font-weight: bold;
+    font-family: var(--font-Heading);
   }
   .Product_Paragraph {
     color: #393939;
@@ -176,6 +188,7 @@
     text-align: center;
     font-weight: 500;
     padding-top: 15px;
+    font-family: var(--font-subHeading);
   }
 
   .Product_Experience_Container {
@@ -222,5 +235,100 @@
     border-radius: 8px;
     cursor: pointer;
     border: none;
+    font-family: var(--font-Heading);
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 850px) {
+  .Product_background {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #eeeeee;
+    /* background-color: green; */
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+  }
+  .Main_Content_Conatiner {
+    min-height: 90vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    overflow: hidden;
+    /* background-color: red; */
+  }
+  .product_Text_Container {
+    width: 100%;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Benefit_Text {
+    color: #ed1b24;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: var(--font-Heading);
+  }
+  .Design_Text {
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    font-family: var(--font-Heading);
+  }
+  .Product_Paragraph {
+    color: #393939;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 15px;
+    font-family: var(--font-subHeading);
+  }
+  .Product_Experience_Container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    /* background-color: red; */
+  }
+  .Exp_Container {
+    width: 90%;
+    /* background-color: green; */
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in 0.3s all;
+  }
+  .Product_Btn_Main_Container {
+    display: flex;
+    justify-content: center;
+  }
+  .Product_Btn_Container {
+    display: flex;
+    width: 45%;
+    flex-direction: row;
+    margin-top: 25px;
+    /* background-color: green; */
+    justify-content: space-evenly;
+  }
+  .Product_Discover {
+    padding: 15px;
+    font-size: 12px;
+    background-color: #ed1b24;
+    color: white;
+    width: 160px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-family: var(--font-Heading);
   }
 }
