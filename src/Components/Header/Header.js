@@ -29,14 +29,18 @@ const HeaderImageSlider = () => {
           <div className="Image_4"></div>
           <div className="Image_5"></div>
           <div className="Image_1"></div>
+          <div className="Image_2"></div>
+          <div className="Image_3"></div>
         </span>
         <span style={{ paddingLeft: "55px" }}>
-          <div className="Image_5"></div>
+          <div className="Image_1"></div>
           <div className="Image_2"></div>
           <div className="Image_3"></div>
           <div className="Image_4"></div>
           <div className="Image_5"></div>
           <div className="Image_1"></div>
+          <div className="Image_2"></div>
+          <div className="Image_3"></div>
         </span>
       </div>
     </div>
@@ -56,22 +60,18 @@ const Header = () => {
             </div>
             <div className="Btn_wrapper">
               <p className="paragraph">
-                ​More than 100 building and housing projects that we have built.
-                The building owner chose us over other contractors in Jakarta,
-                because our work is different.
+                Sign Marketing is Pakistan’s leading and reputable sales and
+                marketing company. We will build and market your project with
+                the best and most innovative market practices to get you the
+                best returns on your big investment.
               </p>
               <button class="Discover">Discover more</button>
             </div>
           </div>
           <div className="Header_Pro_Bg">
-            <DisriProject
-              Icon_Image={<GifSvg />}
-              Label={"Market my project!"}
-            />
-            <DisriProject
-              Icon_Image={<GifSvg />}
-              Label={"Market my project!"}
-            />
+            <DisriProject Icon_Image={<GifSvg />} Label={"BUY"} />
+            <DisriProject Icon_Image={<GifSvg />} Label={"SELL"} />
+            <DisriProject Icon_Image={<GifSvg />} Label={"INVEST"} />
             <div className="No_Project_Conatiner">
               <div className="text_Container">
                 <div className="text_Wrapper">

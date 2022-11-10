@@ -39,8 +39,8 @@ const CardSlider = () => {
   const Data = [
     {
       id: 1,
-      name: "Name Here",
-      Location: "Location Here",
+      name: "Signature Hotels",
+      Location: "Top-City, Islamabad",
       Contact: "Contact",
       LocIcon: <Location />,
       WhatsAppIcon: <WhatsApp />,
@@ -48,35 +48,35 @@ const CardSlider = () => {
     },
     {
       id: 2,
-      name: "Name Here",
-      Location: "Location Here",
+      name: "J7 Emporium",
+      Location: "B-17, Islamabad",
       Contact: "Contact",
       LocIcon: <Location />,
       WhatsAppIcon: <WhatsApp />,
-      image: require("../../Assets/Card_Image2.png"),
+      image: require("../../Assets/Card_Image2.jpg"),
     },
     {
       id: 3,
-      name: "Name Here",
-      Location: "Location Here",
+      name: "J7 Icon",
+      Location: "Mumtaz City, Islamabad",
       Contact: "Contact",
       LocIcon: <Location />,
       WhatsAppIcon: <WhatsApp />,
-      image: require("../../Assets/Card_Image3.png"),
+      image: require("../../Assets/Card_Image3.jpg"),
     },
     {
       id: 4,
-      name: "Name Here",
-      Location: "Location Here",
+      name: "J7 Mall Chakwal",
+      Location: "Talagang Road, Chakwal",
       Contact: "Contact",
       LocIcon: <Location />,
       WhatsAppIcon: <WhatsApp />,
-      image: require("../../Assets/Card_Image4.png"),
+      image: require("../../Assets/Card_Image4.jpg"),
     },
     {
       id: 5,
-      name: "Name Here",
-      Location: "Location Here",
+      name: "Signature Hotels",
+      Location: "Top-City, Islamabad",
       Contact: "Contact",
       LocIcon: <Location />,
       WhatsAppIcon: <WhatsApp />,
@@ -84,30 +84,30 @@ const CardSlider = () => {
     },
     {
       id: 6,
-      name: "Name Here",
-      Location: "Location Here",
+      name: "J7 Emporium",
+      Location: "B-17, Islamabad",
       Contact: "Contact",
       LocIcon: <Location />,
       WhatsAppIcon: <WhatsApp />,
-      image: require("../../Assets/Card_Image2.png"),
+      image: require("../../Assets/Card_Image2.jpg"),
     },
     {
       id: 7,
-      name: "Name Here",
-      Location: "Location Here",
+      name: "J7 Icon",
+      Location: "Mumtaz City, Islamabad",
       Contact: "Contact",
       LocIcon: <Location />,
       WhatsAppIcon: <WhatsApp />,
-      image: require("../../Assets/Card_Image3.png"),
+      image: require("../../Assets/Card_Image3.jpg"),
     },
     {
       id: 8,
-      name: "Name Here",
-      Location: "Location Here",
+      name: "J7 Mall Chakwal",
+      Location: "Talagang Road, Chakwal",
       Contact: "Contact",
       LocIcon: <Location />,
       WhatsAppIcon: <WhatsApp />,
-      image: require("../../Assets/Card_Image4.png"),
+      image: require("../../Assets/Card_Image4.jpg"),
     },
   ];
 
@@ -156,9 +156,7 @@ const CardSlider = () => {
                       <div className="Card_User_Location_Iocn">
                         {user.LocIcon}
                       </div>
-                      <div className="Card_User_WhatsApp_Icon">
-                        {user.WhatsAppIcon}
-                      </div>
+                      {user.WhatsAppIcon}
                     </div>
                   </div>
                 </div>

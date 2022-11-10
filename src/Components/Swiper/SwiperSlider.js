@@ -27,7 +27,7 @@ const SwiperSlider = () => {
       Contact: "Contact",
       UserIcon: <UserIcon />,
       TimeIcon: <TimeIcon />,
-      image: require("../../Assets/Swiper_Image1.png"),
+      image: require("../../Assets/Card_Image1.png"),
     },
     {
       id: 2,
@@ -36,7 +36,7 @@ const SwiperSlider = () => {
       Contact: "Contact",
       UserIcon: <UserIcon />,
       TimeIcon: <TimeIcon />,
-      image: require("../../Assets/Swiper_Image2.png"),
+      image: require("../../Assets/Card_Image2.jpg"),
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ const SwiperSlider = () => {
       Contact: "Contact",
       UserIcon: <UserIcon />,
       TimeIcon: <TimeIcon />,
-      image: require("../../Assets/Swiper_Image1.png"),
+      image: require("../../Assets/Card_Image1.png"),
     },
     {
       id: 4,
@@ -54,7 +54,7 @@ const SwiperSlider = () => {
       Contact: "Contact",
       UserIcon: <UserIcon />,
       TimeIcon: <TimeIcon />,
-      image: require("../../Assets/Swiper_Image2.png"),
+      image: require("../../Assets/Card_Image4.jpg"),
     },
     {
       id: 5,
@@ -63,7 +63,7 @@ const SwiperSlider = () => {
       Contact: "Contact",
       UserIcon: <UserIcon />,
       TimeIcon: <TimeIcon />,
-      image: require("../../Assets/Swiper_Image1.png"),
+      image: require("../../Assets/Card_Image3.jpg"),
     },
   ];
   const navigationPrevRef = React.useRef(null);

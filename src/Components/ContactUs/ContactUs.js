@@ -74,7 +74,7 @@ const ContactUs = () => {
               <div className="Input_Header_Text">Contact Us</div>
               <div className="Diviver_Contact"></div>
               <div className="Contact_Input_Wrapper">
-                <InputBox type={"name"} placeholder={"Name..."} />
+                <InputBox type={"name"} placeholder={"Name"} />
                 <InputBox type={"email"} placeholder={"Email"} />
                 <textarea
                   placeholder="Write Your Message Here..."

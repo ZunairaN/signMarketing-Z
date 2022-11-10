@@ -46,15 +46,10 @@ const About = () => {
           <div className="Inner_Container_First">
             <div className="About_Text">About Us</div>
             <p className="About_Paragraph_Text">
-              Dream Home is a gated community with a great location. Located
-              downtown, you’re within walking distance of Parks, and the best
-              shopping, dining and entertainment Getting around is a breeze,
-              with easy access to freeways, buses and trolleys. . Laundry is
-              available on premises.Dream Home is a gated community with a great
-              location. Located downtown, you’re within walking distance of
-              Parks, and the best shopping, dining and entertainment Getting
-              around is a breeze, with easy access to freeways, buses and
-              trolleys. . Laundry is available on premises.
+              Sign Marketing is Pakistan’s leading and reputable sales and
+              marketing company. We will build and market your project with the
+              best and most innovative market practices to get you the best
+              returns on your big investment.
             </p>
             <div className="About_Btn_Container">
               <button class="ABout_Discover">Contact Us</button>
@@ -100,7 +95,7 @@ const About = () => {
                   : "About_Loaction_Count_Container_3"
               }
             >
-              <div className="About_Date_Text">47/7</div>
+              <div className="About_Date_Text">24/7</div>
               <div className="About_Help_Text">Help</div>
               <div className="About_Paragraph_Text_Inner_Schedule">
                 24/7 Help service for all customers to guide and support

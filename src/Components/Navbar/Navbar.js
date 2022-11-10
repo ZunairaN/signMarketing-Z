@@ -105,7 +105,7 @@ const Navbar = ({ visible }) => {
               className={
                 isScrolling
                   ? "App_Links_Wrapper_Active App_Links_Wrapper"
-                  : "App_Links_Wrapper"
+                  : "App_Links_Wrapper "
               }
             >
               <li

@@ -146,7 +146,7 @@
   margin-top: 15px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
   .Swiper_Wrapper {
     height: 250px;
     width: 300px;
@@ -225,7 +225,7 @@
   }
 }
 
-@media screen and (min-width: 551px) and (max-width: 850px) {
+@media screen and (min-width: 751px) and (max-width: 900px) {
   .Swiper_Main_Container {
     display: flex;
     flex-direction: row;
@@ -247,12 +247,12 @@
   }
 }
 
-@media screen and (min-width: 851px) and (max-width: 1300px) {
+@media screen and (min-width: 901px) and (max-width: 1300px) {
   .Swiper_Main_Container {
     display: flex;
     flex-direction: row;
     width: 90%;
-    margin-top: 0px;
+    margin-top: 40px;
     /* background-color: green; */
   }
 }

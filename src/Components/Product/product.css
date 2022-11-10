@@ -1,6 +1,7 @@
 .Product_background {
   min-height: 100vh;
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +29,7 @@
 }
 .Design_Text {
   color: black;
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-align: center;
   font-family: var(--font-Heading);
 }
@@ -50,7 +51,7 @@
 }
 .Exp_Container {
   width: 45%;
-  /* background-color: green; */
+  background-color: #eeeeee;
   margin-left: 10px;
   margin-top: 10px;
   display: flex;
@@ -75,7 +76,7 @@
 }
 .Exp_Container:hover {
   background-color: black;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .Exp_Container:hover .Product_Exp_Text {
   color: white;
@@ -114,6 +115,7 @@
 .Product_Arrow_Container:hover .Product_See_Text {
   transition: ease-in 0.3s all;
   color: #ed1b24;
+  font-weight: bold;
   font-family: var(--font-Heading);
 }
 .Product_Arrow_Container:hover #Button_Arrow {
@@ -126,6 +128,7 @@
   color: black;
   font-size: 1.5rem;
   cursor: pointer;
+  font-weight: bold;
   font-family: var(--font-Heading);
 }
 .Product_Btn_Main_Container {
@@ -137,14 +140,14 @@
   margin-left: 10px;
   display: flex;
   align-items: center;
-  padding-bottom: 3px;
+  /* background-color: green; */
 }
 
 @media screen and (max-width: 550px) {
   .Product_background {
     min-height: 100vh;
     width: 100%;
-    background-color: #eeeeee;
+    background-color: white;
     /* background-color: green; */
     /* display: flex;
     justify-content: center;
@@ -204,7 +207,7 @@
   }
   .Exp_Container {
     width: 100%;
-    /* background-color: green; */
+    background-color: #eeeeee;
     margin-left: 0;
     margin-top: 0;
     display: flex;
@@ -213,6 +216,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: ease-in 0.3s all;
+    margin-top: 15px;
   }
 
   .Product_Btn_Main_Container {
@@ -240,11 +244,11 @@
   }
 }
 
-@media screen and (min-width: 551px) and (max-width: 850px) {
+@media screen and (min-width: 551px) and (max-width: 950px) {
   .Product_background {
     min-height: 100vh;
     width: 100%;
-    background-color: #eeeeee;
+    background-color: white;
     /* background-color: green; */
     padding-left: 5%;
     padding-right: 5%;
@@ -308,6 +312,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: ease-in 0.3s all;
+    margin-top: 15px;
   }
   .Product_Btn_Main_Container {
     display: flex;
@@ -315,7 +320,7 @@
   }
   .Product_Btn_Container {
     display: flex;
-    width: 45%;
+    width: 50%;
     flex-direction: row;
     margin-top: 25px;
     /* background-color: green; */
@@ -334,7 +339,7 @@
   }
 }
 
-@media screen and (min-width: 851px) and (max-width: 1300px) {
+@media screen and (min-width: 951px) and (max-width: 1300px) {
   .Benefit_Text {
     color: #ed1b24;
     font-size: 2.8rem;

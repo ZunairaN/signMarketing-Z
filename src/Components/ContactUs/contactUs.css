@@ -60,6 +60,7 @@
   justify-content: space-between;
   margin-top: 100px;
   align-items: center;
+  /* background-color: green; */
 }
 .Region_Text {
   font-size: 2.5rem;
@@ -80,6 +81,8 @@
   text-align: justify;
   line-height: 1.4;
   font-family: var(--font-subHeading);
+  /* background-color: yellow; */
+  align-self: flex-end;
 }
 .Region_Text_Container {
   width: 45%;
@@ -247,7 +250,14 @@
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
+  .Diviver_Contact {
+    height: 3px;
+    background-color: #ed1b24;
+    display: inline-block;
+    width: 75px;
+    border-radius: 25px;
+  }
   .Contact_background {
     min-height: 100vh;
     background-color: white;
@@ -279,7 +289,8 @@
     align-items: center;
   }
   .Contact_Image_Text_Container {
-    height: 23vh;
+    /* height: 25vh; */
+    height: 170px;
     width: 70vw;
     background-image: url("../../Assets/Contact_Text_Image.png");
     background-repeat: no-repeat;
@@ -397,13 +408,14 @@
     background-color: white;
     box-shadow: none;
     width: 100%;
-    height: 65vh;
+    height: 460px;
     margin: 0 auto;
     position: relative;
     margin-top: 0px;
     display: flex;
     flex-direction: column;
     border-radius: 0;
+    /* background-color: green; */
   }
   .Contact_Form_Text_Container {
     width: 100%;
@@ -419,7 +431,14 @@
   }
 }
 
-@media screen and (min-width: 551px) and (max-width: 850px) {
+@media screen and (min-width: 751px) and (max-width: 950px) {
+  .Diviver_Contact {
+    height: 3px;
+    background-color: #ed1b24;
+    display: inline-block;
+    width: 75px;
+    border-radius: 25px;
+  }
   .Contact_background {
     min-height: 100vh;
     background-color: white;
@@ -436,7 +455,8 @@
     /* background-color: green; */
   }
   .Contact_Image_Container {
-    height: 45vh;
+    /* height: 45vh; */
+    height: 450px;
     width: 50%;
     background-image: url("../../Assets/ContactUsImage.png");
     background-repeat: no-repeat;
@@ -448,7 +468,7 @@
     margin-left: 80px;
   }
   .Contact_Image_Text_Container {
-    height: 18vh;
+    height: 200px;
     width: 35vw;
     background-image: url("../../Assets/Contact_Text_Image.png");
     background-repeat: no-repeat;
@@ -527,14 +547,15 @@
     background-color: #ed1b24;
     height: 100px;
     width: 100%;
-    margin-top: 200px;
+    margin-top: 120px;
     position: absolute;
   }
   .Contact_Form_Container {
     background-color: white;
     box-shadow: none;
     width: 100%;
-    height: 75vh;
+    /* background-color: green; */
+    height: 400px;
     margin: 0 auto;
     position: relative;
     margin-top: -80px;
@@ -561,9 +582,19 @@
     height: 100%;
     width: 100%;
   }
+  .Contact_Form_Image_Container {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 851px) and (max-width: 1300px) {
+@media screen and (min-width: 951px) and (max-width: 1300px) {
+  .Diviver_Contact {
+    height: 3px;
+    background-color: #ed1b24;
+    display: inline-block;
+    width: 60px;
+    border-radius: 25px;
+  }
   .Contact_Swiper_Container {
     display: flex;
     flex-direction: column;

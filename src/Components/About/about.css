@@ -107,7 +107,7 @@
 }
 .About_Project_Text {
   font-size: 1.3rem;
-  color: #fffbfb;
+  color: #c6c6c6;
   text-align: center;
   padding-bottom: 5px;
   font-family: var(--font-subHeading);
@@ -117,10 +117,11 @@
   color: #fffbfb;
   text-align: center;
   padding-bottom: 15px;
-  width: 65%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   font-family: var(--font-subHeading);
+  /* background-color: green; */
 }
 .About_Date_Text {
   font-size: 3rem;
@@ -132,7 +133,7 @@
 }
 .About_Help_Text {
   font-size: 1.3rem;
-  color: #fffbfb;
+  color: #c6c6c6;
   text-align: center;
   padding-top: 5px;
   font-family: var(--font-subHeading);
@@ -142,11 +143,12 @@
   color: #fffbfb;
   text-align: center;
   padding-top: 5px;
-  width: 65%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10px;
   font-family: var(--font-subHeading);
+  /* background-color: green; */
 }
 
 .About_Count_Text_1 {
@@ -159,7 +161,7 @@
 }
 .About_Project_Text_1 {
   font-size: 1.3rem;
-  color: white;
+  color: #c6c6c6;
   text-align: center;
   padding-bottom: 5px;
   font-family: var(--font-subHeading);
@@ -170,7 +172,7 @@
   text-align: center;
   padding-bottom: 15px;
   text-align: center;
-  width: 60%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   font-family: var(--font-subHeading);
@@ -178,23 +180,25 @@
 
 .About_Loaction_Count_Container_1 {
   border-radius: 10px;
-  padding: 2%;
-  width: 80%;
+  /* padding: 2%; */
+  padding: 10px 0;
+  width: 65%;
   cursor: default;
   padding-bottom: 5px;
 }
-.About_Loaction_Count_Container_1:hover {
+/* .About_Loaction_Count_Container_1:hover {
   background-color: white;
   transition: ease-in 0.3s all;
-}
-.About_Loaction_Count_Container_1:hover div {
+} */
+/* .About_Loaction_Count_Container_1:hover div {
   color: black;
   transition: ease-in 0.3s all;
-}
+} */
 .About_Loaction_Count_Container_1_Active {
   border-radius: 10px;
-  padding: 2%;
-  width: 80%;
+  /* padding: 2%; */
+  padding: 10px 0;
+  width: 65%;
   cursor: default;
   background-color: white;
   transition: ease-in 0.3s all;
@@ -205,11 +209,12 @@
 }
 .About_Loaction_Count_Container_2 {
   border-radius: 10px;
-  padding: 2%;
-  width: 80%;
+  /* padding: 2%; */
+  padding: 10px 0;
+  width: 65%;
   cursor: default;
 }
-.About_Loaction_Count_Container_2:hover {
+/* .About_Loaction_Count_Container_2:hover {
   background-color: white;
   transition: ease-in 0.3s all;
 }
@@ -217,22 +222,23 @@
 .About_Loaction_Count_Container_2:hover div {
   color: black;
   transition: ease-in 0.3s all;
-}
+} */
 
 .About_Loaction_Count_Container_3 {
   border-radius: 10px;
-  padding: 2%;
-  width: 80%;
+  /* padding: 2%; */
+  padding: 10px 0;
+  width: 65%;
   cursor: default;
 }
-.About_Loaction_Count_Container_3:hover {
+/* .About_Loaction_Count_Container_3:hover {
   background-color: white;
   transition: ease-in 0.3s all;
 }
 .About_Loaction_Count_Container_3:hover div {
   color: black;
   transition: ease-in 0.3s all;
-}
+} */
 
 @media screen and (max-width: 550px) {
   .About_background {
@@ -312,7 +318,7 @@
   }
 }
 
-@media screen and (min-width: 551px) and (max-width: 850px) {
+@media screen and (min-width: 551px) and (max-width: 900px) {
   .About_background {
     height: 100%;
     width: 90%;
@@ -374,7 +380,7 @@
   }
 }
 
-@media screen and (min-width: 851px) and (max-width: 1300px) {
+@media screen and (min-width: 901px) and (max-width: 1300px) {
   .About_Text {
     font-size: 2.5rem;
     color: white;
@@ -404,7 +410,7 @@
   }
   .About_Project_Text {
     font-size: 1.2rem;
-    color: #fffbfb;
+    color: #c6c6c6;
     text-align: center;
     padding-bottom: 5px;
     font-family: var(--font-subHeading);
@@ -429,7 +435,7 @@
   }
   .About_Project_Text_1 {
     font-size: 1.2rem;
-    color: white;
+    color: #c6c6c6;
     text-align: center;
     padding-bottom: 5px;
     font-family: var(--font-subHeading);
@@ -455,7 +461,7 @@
   }
   .About_Help_Text {
     font-size: 1.2rem;
-    color: #fffbfb;
+    color: #c6c6c6;
     text-align: center;
     padding-top: 5px;
     font-family: var(--font-subHeading);

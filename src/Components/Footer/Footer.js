@@ -40,13 +40,13 @@ const Footer = () => {
       <div className="Footer_Main_Conatiner">
         <div className="Footer_Bg_Container">
           <div className="Footer_Content_Main_Container">
-            <FooterComponet
+            {/* <FooterComponet
               Icons={<Location />}
               Label={"Multan Office"}
               Address={
                 "Office No. 2, 3, 4, Mezzanine Floor, Chenone Tower, Abdal Road, Multan"
               }
-            />
+            /> */}
             <FooterComponet
               Icons={<Location />}
               Label={"Karachi Office"}
@@ -54,17 +54,19 @@ const Footer = () => {
                 "Mezzanine Floor, Topra Plaza, Main University Road, Opp. Urdu Science College Gulshan-e-Iqbal, Karachi."
               }
             />
-            <FooterComponet
+            {/* <FooterComponet
               Icons={<Location />}
               Label={"Hyderabad Office"}
               Address={
                 "Garrison Complex, First Floor, Main Saddar Road, Near Bombay Bakery, Hyderabad, Sindh, Pakistan"
               }
-            />
+            /> */}
             <FooterComponet
               Icons={<Location />}
               Label={"Islamabad Office"}
-              Address={"Roshan Center, Jinnah Avenue Islamabad, Punjab"}
+              Address={
+                "Office No. 9, 1st Floor, Beverly Center, Jinnah Avenue, Blue Area Islamabad. Helpline Murree: +92 331 111 1118 Landline: 051 16111118 Sign Marketing"
+              }
             />
             <FooterComponet
               Icons={<Location />}
@@ -80,27 +82,27 @@ const Footer = () => {
                 "Office No. 106, 1st Floor, Siddiq Trade Center, 72, Main Boulevard Lahore, Punjab"
               }
             />
-            <FooterComponet
+            {/* <FooterComponet
               Icons={<Location />}
               Label={"Nowshera Office"}
               Address={
                 "Office No. 1, 1st Floor, Amin Tower, Shobra Chowk, Akramabad, Nowshera, Khyber Pakhtunkhwa"
               }
-            />
-            <FooterComponet
+            /> */}
+            {/* <FooterComponet
               Icons={<Location />}
               Label={"Peshawar Office"}
               Address={
                 "Deans Trade Center, UG-7 & UG-8, Opposite F.C Headquarters, Saddar Peshawar, Khyber Pakhtunkhwa"
               }
-            />
+            /> */}
           </div>
         </div>
         <div className="Footer_Wrapper_Content">
           <div className="Contact_Footer_Social_Main_Container">
-            <div className="Contact_Sub_Text">Subscribe Newsletter</div>
+            <div className="Contact_Sub_Text">Subscribe Newsletters</div>
             <div className="Contact_Sub_Button_Main_Container">
-              <InputBox type={"email"} placeholder={"Email"} />
+              <InputBox type={"email"} placeholder={"Enter your email"} />
             </div>
           </div>
           <div className="Contact_Footer_Social_Icons_Container">
@@ -185,7 +187,7 @@ const Footer = () => {
                   scrolldiv("Header_Section");
                 }}
               >
-                Terms & Conditions
+                Terms of Service
               </div>
               <div
                 className="Footer_Text"
