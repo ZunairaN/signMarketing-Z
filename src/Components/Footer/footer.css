@@ -55,7 +55,10 @@
   padding-left: 10px;
 }
 .Icons_Wrapper {
-  padding-top: 5px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Footer_Loaction_Content_Conatiner:hover {
@@ -95,8 +98,6 @@
   padding: 5px 5px;
   background-color: white;
   display: flex;
-
-  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
 }
 .input_Email_Footer {
   border: none;
@@ -523,24 +524,26 @@
   }
 
   .Footer_Terms_Condition_Container {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 25px 0px;
+    margin: 0 auto;
+    /* background-color: green; */
   }
   .Footer_Terms_Wrapper {
-    width: 45%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    /* background-color: green; */
   }
   .Footer_Text {
     font-size: 1.5rem;
     color: #1b1a1a;
     font-weight: 400;
-    padding-left: 0px;
     cursor: pointer;
     margin-bottom: 10px;
   }
@@ -551,14 +554,73 @@
     font-size: 1.7rem;
     color: #1b1a1a;
     font-weight: 400;
-    width: 80%;
+    width: 50%;
     text-align: center;
     font-family: var(--font-subHeading);
+    /* background-color: green; */
   }
   .Footer_Divider {
     margin-top: 15px;
     height: 1px;
     width: 100%;
     background-color: #666666;
+  }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1300px) {
+  .Footer_Place_Name_Text {
+    font-size: 1.8rem;
+    color: white;
+    font-family: var(--font-Heading);
+  }
+  .Footer_Place_Address_Text {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 400;
+    transition: ease-in-out 0.2s all;
+    font-family: var(--font-subHeading);
+  }
+  .Footer_Wrapper_Content {
+    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -80px;
+  }
+  .Contact_Sub_Text {
+    font-size: 2.8rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  .input_container_Footer {
+    border: 0.5px solid #666666;
+    width: 30vw;
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: white;
+    display: flex;
+  }
+  .Footer_Sub_Button {
+    border: none;
+    outline: none;
+    width: 15vw;
+    height: 40px;
+    background-color: #ed1b24;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 5px;
+    font-family: var(--font-Heading);
+  }
+  .Footer_Link_Text {
+    font-size: 1.8rem;
+    color: black;
+    font-family: var(--font-Heading);
+  }
+  .Footer_Links_Conatiner {
+    display: flex;
+    width: 43%;
+    justify-content: space-between;
+    cursor: pointer;
   }
 }

@@ -373,3 +373,102 @@
     justify-content: space-evenly;
   }
 }
+
+@media screen and (min-width: 851px) and (max-width: 1300px) {
+  .About_Text {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    font-family: var(--font-Heading);
+  }
+  .About_Paragraph_Text {
+    font-size: 1.1rem;
+    font-family: var(--font-subHeading);
+  }
+  .Inner_Container_Second {
+    width: 38%;
+    min-height: 75h;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-between;
+  }
+  .About_Count_Text {
+    color: #fffbfb;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-family: var(--font-subHeading);
+  }
+  .About_Project_Text {
+    font-size: 1.2rem;
+    color: #fffbfb;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: var(--font-subHeading);
+  }
+  .About_Paragraph_Text_Inner {
+    font-size: 1.2rem;
+    color: #fffbfb;
+    text-align: center;
+    padding-bottom: 15px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--font-subHeading);
+  }
+  .About_Count_Text_1 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-family: var(--font-subHeading);
+  }
+  .About_Project_Text_1 {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: var(--font-subHeading);
+  }
+  .About_Paragraph_Text_Inner_1 {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--font-subHeading);
+  }
+  .About_Date_Text {
+    font-size: 2.5rem;
+    color: #fffbfb;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 600;
+    font-family: var(--font-subHeading);
+  }
+  .About_Help_Text {
+    font-size: 1.2rem;
+    color: #fffbfb;
+    text-align: center;
+    padding-top: 5px;
+    font-family: var(--font-subHeading);
+  }
+  .About_Paragraph_Text_Inner_Schedule {
+    font-size: 1.2rem;
+    color: #fffbfb;
+    text-align: center;
+    padding-top: 5px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    font-family: var(--font-subHeading);
+  }
+}

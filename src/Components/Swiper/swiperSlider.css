@@ -246,3 +246,13 @@
     border-radius: 10px;
   }
 }
+
+@media screen and (min-width: 851px) and (max-width: 1300px) {
+  .Swiper_Main_Container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 0px;
+    /* background-color: green; */
+  }
+}

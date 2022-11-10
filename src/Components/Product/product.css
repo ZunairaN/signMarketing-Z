@@ -69,6 +69,7 @@
   font-size: 1.3rem;
   color: black;
   padding-top: 5px;
+  font-weight: 500;
   font-family: var(--font-subHeading);
   text-align: justify;
 }
@@ -326,6 +327,45 @@
     background-color: #ed1b24;
     color: white;
     width: 160px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-family: var(--font-Heading);
+  }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1300px) {
+  .Benefit_Text {
+    color: #ed1b24;
+    font-size: 2.8rem;
+    text-align: center;
+    font-family: var(--font-Heading);
+  }
+  .Design_Text {
+    color: black;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: var(--font-Heading);
+  }
+  .Product_Exp_Text {
+    font-size: 2rem;
+    color: black;
+    font-family: var(--font-Heading);
+  }
+  .Pro_Pagragraph {
+    font-size: 1.2rem;
+    color: black;
+    padding-top: 5px;
+    font-weight: 500;
+    font-family: var(--font-subHeading);
+    text-align: justify;
+  }
+  .Product_Discover {
+    padding: 12px;
+    font-size: 12px;
+    background-color: #ed1b24;
+    color: white;
+    width: 150px;
     border-radius: 8px;
     cursor: pointer;
     border: none;
