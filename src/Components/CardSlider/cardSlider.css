@@ -42,6 +42,7 @@
   cursor: pointer;
   align-self: center;
   border-radius: 10px;
+  /* background-color: green; */
 }
 .Pre_button:hover {
   background-color: #ed1b24;
@@ -55,14 +56,15 @@
   background-color: #ed1b24;
 }
 .Next_button {
-  font-size: 15px;
-  margin-left: 10px;
-  cursor: pointer;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 10px;
+  padding-top: 6px;
   padding-bottom: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  align-self: center;
   border-radius: 10px;
+  /* background-color: green; */
 }
 .Next_button:hover #Right_Arrow {
   fill: white;
@@ -76,7 +78,7 @@
   bottom: 37px;
   z-index: 555;
   cursor: pointer;
-  /* background-color: green; */
+  /* background-color: red; */
 }
 .Card_Image_Bg {
   height: 100%;

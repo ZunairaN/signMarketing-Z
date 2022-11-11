@@ -63,11 +63,27 @@ const Navbar = ({ visible }) => {
   };
 
   const ScrollScreen = () => {
-    if (window.screenY > 0) {
+    if (window.scrollY > 0) {
       setToggleMenu(false);
     }
   };
+
+  const activeMenu = () => {
+    if (window.scrollY === 0 && window.scrollY <= 800) {
+      ActiveLink("Home");
+    } else if (window.scrollY >= 800 && window.scrollY <= 1550) {
+      ActiveLink("About");
+    } else if (window.scrollY >= 1550 && window.scrollY <= 2550) {
+      ActiveLink("Project");
+    } else if (window.scrollY >= 2550 && window.scrollY <= 3200) {
+      ActiveLink("Product");
+    } else if (window.scrollY >= 3200) {
+      ActiveLink("Contact");
+    }
+  };
+
   window.addEventListener("scroll", ScrollScreen);
+  window.addEventListener("scroll", activeMenu);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -80,8 +96,8 @@ const Navbar = ({ visible }) => {
       }
     });
   });
-  // console.log("isScrolling", isScrolling);
-  // console.log("visble", visible);
+
+  // const li = document.querySelectorAll("");
 
   return (
     <>
@@ -156,7 +172,7 @@ const Navbar = ({ visible }) => {
                 }}
                 className={activeContact ? "Active_Link" : ""}
               >
-                Contacts
+                Contact
               </li>
             </ul>
             <div className="App_Smaller_Devices">

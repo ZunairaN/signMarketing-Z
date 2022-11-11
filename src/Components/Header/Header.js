@@ -6,7 +6,6 @@ import GifSvg from "../../Assets/GifSvg";
 
 import "swiper/css";
 import "swiper/css/pagination";
-
 const DisriProject = (props) => {
   return (
     <div className="DisriProject_Container">
@@ -69,9 +68,11 @@ const Header = () => {
             </div>
           </div>
           <div className="Header_Pro_Bg">
-            <DisriProject Icon_Image={<GifSvg />} Label={"BUY"} />
-            <DisriProject Icon_Image={<GifSvg />} Label={"SELL"} />
-            <DisriProject Icon_Image={<GifSvg />} Label={"INVEST"} />
+            <div className="Header_Box_Conatiner">
+              <DisriProject Icon_Image={<GifSvg />} Label={"BUY"} />
+              <DisriProject Icon_Image={<GifSvg />} Label={"SELL"} />
+              <DisriProject Icon_Image={<GifSvg />} Label={"INVEST"} />
+            </div>
             <div className="No_Project_Conatiner">
               <div className="text_Container">
                 <div className="text_Wrapper">

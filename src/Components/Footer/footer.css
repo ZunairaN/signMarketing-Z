@@ -209,7 +209,7 @@
 .Footer_Divider {
   height: 1px;
   width: 100%;
-  background-color: #666666;
+  background-color: gray;
 }
 
 @media screen and (max-width: 750px) {
@@ -221,7 +221,7 @@
   }
   .Footer_Bg_Container {
     width: 100%;
-    height: 1450px;
+    height: 950px;
     margin-top: 50px;
     background-image: url("../../Assets/Footer_Bg.png");
     background-repeat: no-repeat;
@@ -245,6 +245,8 @@
     width: 90%;
     box-sizing: border-box;
     padding: 25px;
+    min-height: 165px;
+    margin: 10px 0;
     /* background-color: green; */
     display: flex;
     flex-direction: row;
@@ -350,7 +352,7 @@
   .Footer_Divider {
     height: 0.25px;
     width: 80%;
-    background-color: #666666;
+    background-color: gray;
     margin: 0 auto;
   }
   .Footer_Terms_Condition_Container {
@@ -567,7 +569,7 @@
     margin-top: 15px;
     height: 1px;
     width: 100%;
-    background-color: #666666;
+    background-color: gray;
   }
 }
 

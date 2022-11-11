@@ -5,7 +5,7 @@ const ArrowLeft = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="25"
-      height="20"
+      height="18"
       viewBox="0 0 28 20"
       fill="none"
     >

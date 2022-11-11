@@ -73,7 +73,16 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding-left: 6.5rem;
+  justify-content: space-between;
+}
+.Header_Box_Conatiner {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  /* background-color: green; */
+  align-items: center;
+  justify-content: center;
+  padding-right: 2rem;
 }
 .Header_bottom_container {
   /* padding: 25px; */
@@ -136,7 +145,7 @@
   background-color: #ffffff;
   border-radius: 15px;
   width: 25rem;
-  height: 20rem;
+  height: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -158,7 +167,7 @@
   align-items: center;
   background-color: #ed1b24;
   border-radius: 50px;
-  margin-top: -10px;
+  /* margin-top: -10px; */
 }
 .DisriProject_Container:hover .icon_Container {
   background-color: white;
@@ -176,7 +185,7 @@
 
 .label_Text {
   font-size: 1.5rem;
-  margin-top: 15px;
+  margin-top: 35px;
   font-family: var(--font-Heading);
 }
 .Header_Conatiner {
@@ -194,7 +203,7 @@
   height: 100%;
   background-color: white;
   width: 30rem;
-  position: absolute;
+  position: relative;
   right: 0;
   border-radius: 15px;
   display: flex;
@@ -436,6 +445,16 @@ span {
     padding-left: 0;
     padding-top: 25px;
   }
+  .Header_Box_Conatiner {
+    height: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+  }
   .DisriProject_Container {
     background-color: #ffffff;
     border-radius: 10px;
@@ -446,7 +465,7 @@ span {
     justify-content: center;
     align-items: center;
     margin-left: 0;
-    margin-top: 25px;
+    margin-top: 15px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
   .icon_Container {
@@ -457,11 +476,11 @@ span {
     align-items: center;
     background-color: #ed1b24;
     border-radius: 50px;
-    margin-top: -10px;
+    /* margin-top: -10px; */
   }
   .label_Text {
     font-size: 1.5rem;
-    margin-top: 10px;
+    margin-top: 25px;
     font-family: var(--font-Heading);
   }
   .No_Project_Conatiner {
@@ -626,14 +645,14 @@ span {
   }
   .Image_5 {
     height: 30px;
-    width: 100px;
+    /* width: 100px; */
     background-image: url("../../Assets/Image_5.png");
     background-repeat: no-repeat;
     background-size: contain;
     transition: ease-in 0.3s all;
     align-self: center;
     cursor: pointer;
-    background-color: brown;
+    /* background-color: brown; */
     margin-left: 50px;
   }
   .Image_5:hover {
@@ -745,6 +764,16 @@ span {
     padding-left: 0;
     padding-bottom: 160px;
   }
+  .Header_Box_Conatiner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: center;
+    padding-right: 2rem;
+    justify-content: space-evenly;
+  }
   .DisriProject_Container {
     background-color: #ffffff;
     border-radius: 10px;
@@ -754,7 +783,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 0;
+    margin-left: 2rem;
     margin-top: 25px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
@@ -983,11 +1012,21 @@ span {
     justify-content: center;
     padding-right: 25rem;
   }
+  .Header_Box_Conatiner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+    justify-content: space-evenly;
+  }
   .DisriProject_Container {
     background-color: #ffffff;
     border-radius: 15px;
-    width: 25rem;
-    height: 22rem;
+    width: 20rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
